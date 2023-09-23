@@ -1,0 +1,32 @@
+[
+    {
+        "code": "14",
+        "name": "Муниципальная собственность",
+        "published": true,
+        "children": []
+    },
+    {
+        "code": "12",
+        "name": "Федеральная собственность",
+        "published": true,
+        "children": []
+    },
+    {
+        "code": "13",
+        "name": "Собственность субъектов РФ",
+        "published": true,
+        "children": []
+    },
+    {
+        "code": "99",
+        "name": "Иная собственность",
+        "published": true,
+        "children": []
+    },
+    {
+        "code": "98",
+        "name": "Собственность компаний с гос. участием",
+        "published": true,
+        "children": []
+    }
+]

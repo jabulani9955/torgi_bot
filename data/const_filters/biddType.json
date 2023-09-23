@@ -1,0 +1,523 @@
+[
+    {
+        "code": "178FZ",
+        "name": "Продажа (приватизация) государственного и муниципального имущества",
+        "published": true,
+        "shortName": "Продажа имущества",
+        "order": 3,
+        "disableShowTorgi": false,
+        "icon": "632d7dc4bc80c5736a1f457c",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            {
+                "code": "BOC",
+                "name": "Продажа без объявления цены"
+            },
+            {
+                "code": "EK",
+                "name": "Электронный конкурс"
+            },
+            {
+                "code": "SA",
+                "name": "Специализированный аукцион"
+            },
+            {
+                "code": "IPS",
+                "name": "Сообщение о предоставлении (реализации)"
+            }
+        ]
+    },
+    {
+        "code": "1041PP",
+        "name": "Реализация имущества, обращенного в собственность государства",
+        "published": true,
+        "shortName": "Реализация имущества, обращенного в собственность государства",
+        "order": 4,
+        "disableShowTorgi": false,
+        "icon": "632d7dc4bc80c5736a1f457e",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PrP",
+                "name": "Прямая продажа"
+            }
+        ]
+    },
+    {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков",
+        "published": true,
+        "shortName": "Аренда и продажа земельных участков",
+        "order": 1,
+        "disableShowTorgi": false,
+        "icon": "61bb79f05925817b31629a61",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "IPS",
+                "name": "Сообщение о предоставлении (реализации)"
+            },
+            {
+                "code": "BC",
+                "name": "Электронный аукцион за долю"
+            }
+        ]
+    },
+    {
+        "code": "67FAS",
+        "name": "Аренда, безвозмездное пользование, доверительное управление имуществом, иные договоры, предусматривающие переход прав в отношении государственного или муниципального имущества, продажа имущества ФГУП",
+        "published": true,
+        "shortName": "Аренда, безвозмездное пользование имуществом",
+        "order": 2,
+        "disableShowTorgi": false,
+        "icon": "61bb79f05925817b31629a75",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "EK",
+                "name": "Электронный конкурс"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "2499PP",
+        "name": "Продажа права пользования участком недр",
+        "published": true,
+        "shortName": "Продажа лицензии недропользования",
+        "order": 5,
+        "disableShowTorgi": false,
+        "icon": "632d7ef051c7a524cd7c3cd7",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            }
+        ]
+    },
+    {
+        "code": "229FZ",
+        "name": "Реализация имущества должников",
+        "published": true,
+        "shortName": "Реализация имущества должников",
+        "order": 6,
+        "disableShowTorgi": false,
+        "icon": "632d7ef051c7a524cd7c3cd9",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "178FZ_26",
+        "name": "Продажа акций по результатам доверительного управления",
+        "published": true,
+        "shortName": "Продажа акций по результатам доверительного управления",
+        "order": 7,
+        "disableShowTorgi": false,
+        "icon": "632d7ef051c7a524cd7c3cdb",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "701PP",
+        "name": "Комплексное развитие территорий",
+        "published": true,
+        "shortName": "Комплексное развитие территорий",
+        "order": 8,
+        "disableShowTorgi": false,
+        "icon": "632d7ef151c7a524cd7c3cdd",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "EK",
+                "name": "Электронный конкурс"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "ZHKH",
+        "name": "ЖКХ",
+        "published": true,
+        "shortName": "ЖКХ",
+        "order": 9,
+        "disableShowTorgi": false,
+        "icon": "632d801dbc80c5736a1f45a2",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "1113PP",
+        "name": "Закрепление и предоставление доли квоты добычи крабов в инвестиционных целях",
+        "published": true,
+        "shortName": "Закрепление и предоставление доли квоты добычи крабов в инвестиционных целях",
+        "order": 28,
+        "disableShowTorgi": false,
+        "icon": "632d8274bc80c5736a1f45cc",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            }
+        ]
+    },
+    {
+        "code": "115FZ",
+        "name": "На право заключения концессионного соглашения",
+        "published": true,
+        "shortName": "Концессионные соглашения",
+        "order": 22,
+        "disableShowTorgi": false,
+        "icon": "632d8274bc80c5736a1f45ca",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            },
+            {
+                "code": "IO",
+                "name": "Предложение о заключении концессионного соглашения"
+            }
+        ]
+    },
+    {
+        "code": "1299PP",
+        "name": "Продажа объектов незавершенного строительства",
+        "published": true,
+        "shortName": "Продажа объектов незавершенного строительства",
+        "order": 26,
+        "disableShowTorgi": false,
+        "icon": "632d83a051c7a524cd7c3d22",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "602PP",
+        "name": "Закрепление долей квот добычи водных биоресурсов и/или право пользования водными биоресурсами",
+        "published": true,
+        "shortName": "Закрепление долей квот добычи водных биоресурсов и/или право пользования водными биоресурсами",
+        "order": 23,
+        "disableShowTorgi": false,
+        "icon": "632d8aa851c7a524cd7c3d83",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "ZKPT",
+        "name": "Публичные торги по продаже земельных участков",
+        "published": true,
+        "shortName": "Публичные торги по продаже земельных участков",
+        "order": 29,
+        "disableShowTorgi": false,
+        "icon": "632d8bd4bc80c5736a1f4658",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "PPZ",
+                "name": "Публичное предложение (ЗК РФ) "
+            }
+        ]
+    },
+    {
+        "code": "450PP",
+        "name": "Право пользования рыбоводным участком",
+        "published": true,
+        "shortName": "Право пользования рыбоводным участком",
+        "order": 31,
+        "disableShowTorgi": false,
+        "icon": "632d8d0051c7a524cd7c3da7",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "233PP",
+        "name": "Купля-продажа природных алмазов специальных размеров",
+        "published": true,
+        "shortName": "Реализация природных алмазов специальных размеров",
+        "order": 30,
+        "disableShowTorgi": false,
+        "icon": "632d8d0051c7a524cd7c3da5",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "RLU",
+        "name": "Право пользования рыболовным участком",
+        "published": true,
+        "shortName": "Право пользования рыболовным участком",
+        "order": 32,
+        "disableShowTorgi": false,
+        "icon": "632d8e2c51c7a524cd7c3dbb",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "23PM",
+        "name": "Право заключения предварительного договора поставки донного грунта",
+        "published": true,
+        "shortName": "Право заключения предварительного договора поставки донного грунта",
+        "order": 33,
+        "disableShowTorgi": false,
+        "icon": "632d8e2c51c7a524cd7c3dbd",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "224FZ",
+        "name": "Соглашение о государственно-частном партнерстве, соглашение о муниципально-частном партнерстве",
+        "published": true,
+        "shortName": "Соглашение о ГЧП и МЧП",
+        "order": 16,
+        "disableShowTorgi": false,
+        "icon": "632d8148bc80c5736a1f45b4",
+        "biddingForms": [
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            },
+            {
+                "code": "GHP",
+                "name": "Решение о реализации проекта ГЧП, проекта МЧП"
+            }
+        ]
+    },
+    {
+        "code": "230PP",
+        "name": "Водопользование",
+        "published": true,
+        "shortName": "Водопользование",
+        "order": 15,
+        "disableShowTorgi": false,
+        "icon": "632d801dbc80c5736a1f45a0",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "938PP",
+        "name": "Продажа объектов электроэнергетики",
+        "published": true,
+        "shortName": "Продажа объектов электроэнергетики",
+        "order": 19,
+        "disableShowTorgi": false,
+        "icon": "632d8148bc80c5736a1f45b6",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "480PP",
+        "name": "Лицензии на оказание услуг связи",
+        "published": true,
+        "shortName": "Лицензии на оказание услуг связи",
+        "order": 20,
+        "disableShowTorgi": false,
+        "icon": "632d8148bc80c5736a1f45b8",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            }
+        ]
+    },
+    {
+        "code": "200FZ",
+        "name": "Аренда лесных участков и продажа лесных насаждений",
+        "published": true,
+        "shortName": "Аренда лесных участков и продажа лесных насаждений",
+        "order": 10,
+        "disableShowTorgi": false,
+        "icon": "632d91b051c7a524cd7c3df2",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "209FZ",
+        "name": "Охотхозяйственные соглашения",
+        "published": true,
+        "shortName": "Охотхозяйственные соглашения",
+        "order": 13,
+        "disableShowTorgi": false,
+        "icon": "632d801cbc80c5736a1f459e",
+        "biddingForms": [
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "38FZ",
+        "name": "Размещение рекламных конструкций",
+        "published": true,
+        "shortName": "Размещение рекламных конструкций",
+        "order": 18,
+        "disableShowTorgi": false,
+        "icon": "632d8aa851c7a524cd7c3d81",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            {
+                "code": "PK",
+                "name": "Конкурс"
+            },
+            {
+                "code": "PA",
+                "name": "Аукцион"
+            }
+        ]
+    },
+    {
+        "code": "OTHER",
+        "name": "Иной вид торгов",
+        "published": true,
+        "shortName": "Иной вид торгов",
+        "order": 34,
+        "disableShowTorgi": false,
+        "icon": "63abff9274670b5f3812416f",
+        "biddingForms": [
+            {
+                "code": "BCU",
+                "name": "Продажа без объявления цены  (цессия)"
+            },
+            {
+                "code": "PPU",
+                "name": "Публичное предложение (цессия)"
+            }
+        ]
+    },
+    {
+        "code": "APGU",
+        "name": "Аренда и продажа имущества компаний с гос. участием",
+        "published": true,
+        "shortName": "Аренда и продажа имущества компаний с гос. участием",
+        "order": 24,
+        "disableShowTorgi": false,
+        "icon": "647de58f702fee1b8b3f8dd1",
+        "biddingForms": [
+            {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            }
+        ]
+    }
+]

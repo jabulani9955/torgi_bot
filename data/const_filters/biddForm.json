@@ -1,0 +1,92 @@
+[
+    {
+        "code": "EA",
+        "name": "Электронный аукцион",
+        "published": true,
+        "forPP": true
+    },
+    {
+        "code": "BOC",
+        "name": "Продажа без объявления цены",
+        "published": true,
+        "forPP": true
+    },
+    {
+        "code": "PP",
+        "name": "Публичное предложение",
+        "published": true,
+        "forPP": true
+    },
+    {
+        "code": "SA",
+        "name": "Специализированный аукцион",
+        "published": true,
+        "forPP": true
+    },
+    {
+        "code": "PrP",
+        "name": "Прямая продажа",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "EK",
+        "name": "Электронный конкурс",
+        "published": true,
+        "forPP": true
+    },
+    {
+        "code": "PA",
+        "name": "Аукцион",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "PK",
+        "name": "Конкурс",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "IO",
+        "name": "Предложение о заключении концессионного соглашения",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "GHP",
+        "name": "Решение о реализации проекта ГЧП, проекта МЧП",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "PPZ",
+        "name": "Публичное предложение (ЗК РФ) ",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "BC",
+        "name": "Электронный аукцион за долю",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "PPU",
+        "name": "Публичное предложение (цессия)",
+        "published": true,
+        "forPP": false
+    },
+    {
+        "code": "BCU",
+        "name": "Продажа без объявления цены  (цессия)",
+        "published": true,
+        "forPP": false
+    }
+]

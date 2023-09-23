@@ -1,0 +1,907 @@
+[
+    {
+        "code": "30",
+        "name": "Сельхозтехника",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "2",
+        "name": "Земельные участки",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": true,
+        "order": 3,
+        "icon": "61bb79f05925817b31629a70"
+    },
+    {
+        "code": "13",
+        "name": "Прочее",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": true,
+        "order": 9999,
+        "icon": "61bb79f15925817b31629a85"
+    },
+    {
+        "code": "15",
+        "name": "Грузовики и спецтехника",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 108,
+        "parentCode": "22"
+    },
+    {
+        "code": "5",
+        "name": "Акции и Доли",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 5,
+        "icon": "637e2333f79e664c2640a0cc"
+    },
+    {
+        "code": "39",
+        "name": "Техника для лесозаготовки",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "2004",
+        "name": "Земли особо охраняемых территорий и объектов",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 303,
+        "parentCode": "2"
+    },
+    {
+        "code": "3",
+        "name": "Земельные участки (категория не установлена)",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 306,
+        "parentCode": "2"
+    },
+    {
+        "code": "902",
+        "name": "Управление многоквартирными домами",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 902,
+        "defaultImage": "63ef7581fc0fac4611dbf108",
+        "parentCode": "900"
+    },
+    {
+        "code": "20",
+        "name": "Объект водоснабжения и (или) водоотведения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 208,
+        "parentCode": "7"
+    },
+    {
+        "code": "9",
+        "name": "Жилые помещения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 204,
+        "parentCode": "7"
+    },
+    {
+        "code": "104",
+        "name": "Запчасти",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 104,
+        "parentCode": "22"
+    },
+    {
+        "code": "2804",
+        "name": "Земли водного фонда",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 305,
+        "parentCode": "2"
+    },
+    {
+        "code": "32",
+        "name": "Автокраны",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "37",
+        "name": "Прицепы",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "605001",
+        "name": "Традиционное рыболовство коренных малочисленных народов",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 605001,
+        "parentCode": "605"
+    },
+    {
+        "code": "21",
+        "name": "Экскаватор",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "110",
+        "name": "Иной транспорт",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 106,
+        "parentCode": "22"
+    },
+    {
+        "code": "23",
+        "name": "Строительство и развитие территорий",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 7,
+        "icon": "637e2333f79e664c2640a0ce"
+    },
+    {
+        "code": "901",
+        "name": "Отбор регионального оператора по обращению с ТКО",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 901,
+        "defaultImage": "63ef7580fc0fac4611dbf106",
+        "parentCode": "900"
+    },
+    {
+        "code": "609",
+        "name": "Пользование участками недр",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 609,
+        "defaultImage": "63ef7582fc0fac4611dbf116",
+        "parentCode": "6"
+    },
+    {
+        "code": "613001",
+        "name": "Оператор",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 613001,
+        "parentCode": "613"
+    },
+    {
+        "code": "614",
+        "name": "Право на размещение рекламных конструкций",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 614,
+        "defaultImage": "63ef7583fc0fac4611dbf11e",
+        "parentCode": "6"
+    },
+    {
+        "code": "101",
+        "name": "Спецтехника",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 101,
+        "parentCode": "22"
+    },
+    {
+        "code": "17",
+        "name": "Государственно-частное партнерство (ГЧП/МЧП/Концессия)",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 8,
+        "icon": "632d8148bc80c5736a1f45b4"
+    },
+    {
+        "code": "607",
+        "name": "Продажа права на заключение договора пользования водными биологическими ресурсами",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 607,
+        "parentCode": "6"
+    },
+    {
+        "code": "605002",
+        "name": "Организация любительского рыболовства",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 605002,
+        "parentCode": "605"
+    },
+    {
+        "code": "400",
+        "name": "Оборудование",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 400,
+        "parentCode": "13"
+    },
+    {
+        "code": "502",
+        "name": "Акции АО, передаваемые в доверительное управление",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 502,
+        "defaultImage": "63ef7584fc0fac4611dbf12a",
+        "parentCode": "5"
+    },
+    {
+        "code": "208",
+        "name": "Иной объект недвижимости",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 211,
+        "parentCode": "7"
+    },
+    {
+        "code": "602",
+        "name": "Водопользование",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 602,
+        "defaultImage": "63ef7581fc0fac4611dbf10e",
+        "parentCode": "6"
+    },
+    {
+        "code": "615",
+        "name": "Квоты добычи (вылова) крабов в инвестиционных целях",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 615,
+        "defaultImage": "63ef7582fc0fac4611dbf114",
+        "parentCode": "6"
+    },
+    {
+        "code": "611",
+        "name": "Право осуществления торговой деятельности",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 611,
+        "defaultImage": "63ef7582fc0fac4611dbf11a",
+        "parentCode": "6"
+    },
+    {
+        "code": "403",
+        "name": "Мебель и предметы интерьера",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 403,
+        "parentCode": "13"
+    },
+    {
+        "code": "405",
+        "name": "Древесина",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 405,
+        "parentCode": "13"
+    },
+    {
+        "code": "401",
+        "name": "Электронная и бытовая техника ",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 401,
+        "parentCode": "13"
+    },
+    {
+        "code": "207",
+        "name": "Единый недвижимый комплекс",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 207,
+        "parentCode": "7"
+    },
+    {
+        "code": "202",
+        "name": "Имущественные комплексы",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 202,
+        "parentCode": "7"
+    },
+    {
+        "code": "612",
+        "name": "Право на размещение некапитального объекта",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 612,
+        "defaultImage": "63ef7582fc0fac4611dbf11c",
+        "parentCode": "6"
+    },
+    {
+        "code": "700",
+        "name": "Комплексное обустройство природных территорий",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 700,
+        "parentCode": "23"
+    },
+    {
+        "code": "603",
+        "name": "Охотхозяйственные соглашения",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 603,
+        "defaultImage": "63ef7581fc0fac4611dbf110",
+        "parentCode": "6"
+    },
+    {
+        "code": "613",
+        "name": "ЖКХ",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 613,
+        "parentCode": "6"
+    },
+    {
+        "code": "404",
+        "name": "Стройматериалы",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 404,
+        "parentCode": "13"
+    },
+    {
+        "code": "500",
+        "name": "Ценные бумаги",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 500,
+        "defaultImage": "63ef7584fc0fac4611dbf128",
+        "parentCode": "5"
+    },
+    {
+        "code": "38",
+        "name": "Строительная техника",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "18",
+        "name": "Запчасти и аксессуары",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 109,
+        "parentCode": "22"
+    },
+    {
+        "code": "33",
+        "name": "Бульдозеры",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "7",
+        "name": "Недвижимость",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": true,
+        "order": 2,
+        "icon": "61bb79f05925817b31629a5e"
+    },
+    {
+        "code": "801",
+        "name": "Объекты концессионного соглашения",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 801,
+        "defaultImage": "6422a1e4b9cee50b36ed6494",
+        "parentCode": "17"
+    },
+    {
+        "code": "47",
+        "name": "Сооружения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 201,
+        "parentCode": "7"
+    },
+    {
+        "code": "616",
+        "name": "Лицензии на оказание услуг связи",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 616,
+        "defaultImage": "63ef7583fc0fac4611dbf120",
+        "parentCode": "6"
+    },
+    {
+        "code": "617",
+        "name": "Закрепление долей квот и (или) пользование водными биоресурсами",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 617,
+        "defaultImage": "63ef7583fc0fac4611dbf122",
+        "parentCode": "6"
+    },
+    {
+        "code": "701",
+        "name": "Комплексное развитие территорий",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 701,
+        "defaultImage": "6422a1e4b9cee50b36ed6498",
+        "parentCode": "23"
+    },
+    {
+        "code": "304",
+        "name": "Земли лесного фонда",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 304,
+        "parentCode": "2"
+    },
+    {
+        "code": "4",
+        "name": "Земли сельскохозяйственного назначения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 300,
+        "parentCode": "2"
+    },
+    {
+        "code": "12",
+        "name": "Инструменты",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 406,
+        "parentCode": "13"
+    },
+    {
+        "code": "45",
+        "name": "Акции АО",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 501,
+        "defaultImage": "63ef7580fc0fac4611dbf0fe",
+        "parentCode": "5"
+    },
+    {
+        "code": "302",
+        "name": "Земли специального назначения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 302,
+        "parentCode": "2"
+    },
+    {
+        "code": "6",
+        "name": "Права пользования и лицензии",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 6,
+        "icon": "637e2333f79e664c2640a0ca"
+    },
+    {
+        "code": "206",
+        "name": "Объекты незавершенного строительства",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 206,
+        "parentCode": "7"
+    },
+    {
+        "code": "210",
+        "name": "Объект электроэнергетики",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 210,
+        "defaultImage": "63ef7581fc0fac4611dbf10a",
+        "parentCode": "7"
+    },
+    {
+        "code": "600",
+        "name": "Права требования",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 600,
+        "defaultImage": "63ef7581fc0fac4611dbf10c",
+        "parentCode": "6"
+    },
+    {
+        "code": "31",
+        "name": "Автобусы",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 100003,
+        "parentCode": "100"
+    },
+    {
+        "code": "14",
+        "name": "Автомобили",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 107,
+        "parentCode": "22"
+    },
+    {
+        "code": "34",
+        "name": "Грузовики",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "36",
+        "name": "Погрузчики",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "601",
+        "name": "Права по инвестиционным договорам",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 601,
+        "parentCode": "6"
+    },
+    {
+        "code": "605000",
+        "name": "Промышленное рыболовство",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 605000,
+        "parentCode": "605"
+    },
+    {
+        "code": "100000",
+        "name": "Мототехника",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 100000,
+        "parentCode": "100"
+    },
+    {
+        "code": "406",
+        "name": "Иное и годные остатки (кроме автомобильных)",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 407,
+        "parentCode": "13"
+    },
+    {
+        "code": "22",
+        "name": "Транспорт",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 1,
+        "icon": "61bb79f15925817b31629a7b"
+    },
+    {
+        "code": "40",
+        "name": "Тягачи",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "900",
+        "name": "ЖКХ",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 900,
+        "icon": "637e2334f79e664c2640a0d0"
+    },
+    {
+        "code": "402",
+        "name": "Драгкамни и металлы, ювелирные изделия",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 402,
+        "parentCode": "13"
+    },
+    {
+        "code": "301",
+        "name": "Земли населенных пунктов",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 301,
+        "parentCode": "2"
+    },
+    {
+        "code": "106",
+        "name": "Годные остатки",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 105,
+        "parentCode": "22"
+    },
+    {
+        "code": "100",
+        "name": "Автомобили и мототехника",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 100,
+        "parentCode": "22"
+    },
+    {
+        "code": "100001",
+        "name": "Легковые автомобили",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 100001,
+        "parentCode": "100"
+    },
+    {
+        "code": "19",
+        "name": "Объект теплоснабжения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 209,
+        "parentCode": "7"
+    },
+    {
+        "code": "606",
+        "name": "Продажа права на заключение договора о закреплении долей квот",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 606,
+        "parentCode": "6"
+    },
+    {
+        "code": "103",
+        "name": "Воздушный транспорт",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 103,
+        "parentCode": "22"
+    },
+    {
+        "code": "24",
+        "name": "Машиноместо",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 0,
+        "parentCode": "7"
+    },
+    {
+        "code": "8",
+        "name": "Здания",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 200,
+        "parentCode": "7"
+    },
+    {
+        "code": "16",
+        "name": "Водный транспорт",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 102,
+        "parentCode": "22"
+    },
+    {
+        "code": "11",
+        "name": "Нежилые помещения",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 203,
+        "parentCode": "7"
+    },
+    {
+        "code": "613000",
+        "name": "Управляющая компания",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 613000,
+        "parentCode": "613"
+    },
+    {
+        "code": "25",
+        "name": "Квартиры",
+        "published": false,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 0,
+        "parentCode": "7"
+    },
+    {
+        "code": "46",
+        "name": "Доля ООО",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 503,
+        "defaultImage": "63ef7580fc0fac4611dbf100",
+        "parentCode": "5"
+    },
+    {
+        "code": "604",
+        "name": "Пользование рыбоводным участком",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 604,
+        "defaultImage": "63ef7581fc0fac4611dbf112",
+        "parentCode": "6"
+    },
+    {
+        "code": "605",
+        "name": "Пользование рыболовным участком",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 605,
+        "parentCode": "6"
+    },
+    {
+        "code": "610",
+        "name": "Право размещения нестационарного объекта",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 610,
+        "defaultImage": "63ef7582fc0fac4611dbf118",
+        "parentCode": "6"
+    },
+    {
+        "code": "409",
+        "name": "Донный грунт",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 409,
+        "defaultImage": "6422a1e4b9cee50b36ed6496",
+        "parentCode": "13"
+    },
+    {
+        "code": "100002",
+        "name": "Грузовые автомобили",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 100002,
+        "parentCode": "100"
+    },
+    {
+        "code": "35",
+        "name": "Коммунальная техника",
+        "published": false,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 0,
+        "parentCode": "15"
+    },
+    {
+        "code": "800",
+        "name": "Объекты ГЧП и МЧП",
+        "published": true,
+        "requiredPhotoOrImage": false,
+        "flagPrivatizationPlans": false,
+        "order": 800,
+        "defaultImage": "6422a1e4b9cee50b36ed6492",
+        "parentCode": "17"
+    },
+    {
+        "code": "307",
+        "name": "Земельные участки (не образованы)",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 307,
+        "parentCode": "2"
+    },
+    {
+        "code": "10",
+        "name": "Гаражи и машиноместа ",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": true,
+        "order": 205,
+        "parentCode": "7"
+    },
+    {
+        "code": "408",
+        "name": "Природные алмазы специальных размеров",
+        "published": true,
+        "requiredPhotoOrImage": true,
+        "flagPrivatizationPlans": false,
+        "order": 408,
+        "parentCode": "13"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "code": "ETP_RAD",
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО «РОССИЙСКИЙ АУКЦИОННЫЙ ДОМ» ",
+        "published": true,
+        "site": "catalog.lot-online.ru",
+        "shortName": "АО «РАД»",
+        "icon": {
+            "id": "633",
+            "url": "61cdccf479a4450c49d9683b"
+        },
+        "keyETP": "057a402253d66e5b36bc4fb6f781549b0e2db2c2"
+    },
+    {
+        "code": "ETP_GPB",
+        "name": "ООО «ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА ГПБ»",
+        "published": true,
+        "site": "etpgpb.ru",
+        "shortName": "ЭТП Газпромбанк ",
+        "icon": {
+            "id": "508",
+            "url": "61bb79f15925817b31629acb"
+        }
+    },
+    {
+        "code": "ETP_MMVB",
+        "name": "ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА «ФАБРИКАНТ»",
+        "published": true,
+        "site": "https://www.fabrikant.ru/",
+        "shortName": "ЭТП «Фабрикант» ",
+        "icon": {
+            "id": "3209",
+            "url": "6465f956d9ef802c646ae95e"
+        },
+        "keyETP": "493b17ed32d802bf96d87f0f531010b7bcd86754"
+    },
+    {
+        "code": "ETP_SBAST",
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО «СБЕРБАНК - АВТОМАТИЗИРОВАННАЯ СИСТЕМА ТОРГОВ» ",
+        "published": true,
+        "site": "utp.sberbank-ast.ru",
+        "shortName": "АО «Сбербанк-АСТ» ",
+        "icon": {
+            "id": "515",
+            "url": "61bb79f15925817b31629aaf"
+        },
+        "keyETP": "42680edbc63951e2f0267d9a3a03a2e057053ae4"
+    },
+    {
+        "code": "ETP_RTS",
+        "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР» ",
+        "published": true,
+        "site": "www.rts-tender.ru",
+        "shortName": "РТС-тендер ",
+        "icon": {
+            "id": "514",
+            "url": "61bb79f15925817b31629ac1"
+        },
+        "keyETP": "ba769d1ee1256a5fbcc65b17b89de9dfb5673c20"
+    },
+    {
+        "code": "ETP_AVK",
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО «АГЕНТСТВО ПО ГОСУДАРСТВЕННОМУ ЗАКАЗУ РЕСПУБЛИКИ ТАТАРСТАН»  ",
+        "published": true,
+        "site": "etp.zakazrf.ru",
+        "shortName": "АГЗ РТ",
+        "icon": {
+            "id": "509",
+            "url": "61bb79f05925817b31629a5f"
+        },
+        "keyETP": "3f64b6582a43d13fc4b577cba0d36081898a9c09"
+    },
+    {
+        "code": "ETP_TEKTORG",
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ТЭК-Торг» ",
+        "published": true,
+        "site": "www.tektorg.ru",
+        "shortName": "ЭТП ТЭК-Торг ",
+        "icon": {
+            "id": "511",
+            "url": "61bb79f15925817b31629ab9"
+        }
+    },
+    {
+        "code": "ETP_EETP",
+        "name": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ЕДИНАЯ ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА» ",
+        "published": true,
+        "site": "roseltorg.ru",
+        "shortName": "АО «ЕЭТП»",
+        "icon": {
+            "id": "512",
+            "url": "61bb79f05925817b31629a6f"
+        },
+        "keyETP": "19063a56f1b9dacaa894f339a5080bbef8c80523"
+    }
+]
