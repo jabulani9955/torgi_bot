@@ -1,9 +1,14 @@
 # Project files to hide
 parser_env/
-index.html
+python39_env/
+
+data/
+output/
 json_file*
 test_excel.csv
 yandex*
+rosreestr2coord/
+tmp/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
