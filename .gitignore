@@ -4,12 +4,6 @@ python39_env/
 
 data/
 output/
-json_file*
-test_excel.csv
-yandex*
-rosreestr2coord/
-tmp/
-TORGI*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
