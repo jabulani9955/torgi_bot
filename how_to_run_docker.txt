@@ -1,0 +1,22 @@
+!How to run Dockerfile!:
+
+docker build --no-cache -t torgi:0.0.1 .
+docker volume create --opt type=none --opt device=/home/jabun/code/torgi_app/data --opt o=bind torgi_db
+docker run --name torgi_gov -d -v torgi_db:/torgi/data torgi:0.0.1
+
+
+
+!How to run docker-compose!:
+
+docker-compose up -d
+
+for rebuild use: 
+1. docker-compose up --build -d 
+   docker-compose up --build --no-cache -d
+   docker-compose build --no-cache
+
+2. docker-compose up -d
+
+
+
+docker run -p 80:8000 --name flask_app_ps -d flask_app

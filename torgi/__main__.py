@@ -1,66 +1,49 @@
-import os
-import json
+import time
 import datetime
 import logging
 
-import requests
+import schedule
 
 from torgi.src.data_processing import data_processing
 
 
-def collect_data(search_text=None, category=None, subject=None):
-    time_now = datetime.datetime.now().strftime(r"%Y%m%d_%H%M%S")
-    BASE_URL = r"https://torgi.gov.ru/new/api/public/lotcards/search?" \
-             + r"size=100&sort=firstVersionPublicationDate,desc&lotStatus=PUBLISHED,APPLICATIONS_SUBMISSION"
-
-    if search_text:
-        BASE_URL += f"&text={search_text}"
-
-    if category:
-        with open('data/const_filters/catCode.json', encoding='utf-8') as f:
-            category_data = json.load(f)
-            cat_code = [cat.get('code') for cat in category_data if cat.get('name') == category][0]
-            BASE_URL += f"&catCode={cat_code}"
-
-    if subject:
-        with open('data/const_filters/dynSubjRF.json', encoding='utf-8') as f:
-            subject_data = json.load(f)
-            subject_code = [sub.get('code') for sub in subject_data if sub.get('name') == subject][0]
-            BASE_URL += f"&dynSubjRF={subject_code}"
-
-    full_json_data = []
-    json_data = requests.get(BASE_URL).json()
-    num_pages = json_data['totalPages']
-    full_json_data.append(json_data)
-
-    for page_num in range(1, num_pages):
-        full_json_data.append(requests.get(BASE_URL+f"&page={page_num}").json())
+logging.basicConfig(
+    filename='data/torgi.log',
+    encoding='utf-8',
+    level=logging.INFO,
+    format="%(asctime)s - [%(levelname)s] (%(filename)s) %(message)s"
+)
+logger = logging.getLogger(__name__)
 
 
-    filepath = f'data/torgi_json_files'
-    filename = f'TORGI_{subject}_{time_now}.json'
-
-    if not os.path.exists(filepath):
-        os.makedirs(filepath)
-
-    with open(os.path.join(filepath, filename), 'w', encoding='utf-8') as f:
-        json.dump(full_json_data, f, indent=4, ensure_ascii=False)
-
-    return os.path.join(filepath, filename)
-
-
-def main():
-    torgi_file = collect_data(category="Земельные участки", subject="Московская область")
-    data_processing(torgi_file)
-
-if __name__ == '__main__':
-
-    logging.basicConfig(filename='torgi/log.log', level=logging.INFO, format='%(asctime)s %(clientip)-15s %(user)-8s %(message)s')
-    logger = logging.getLogger(__name__)
-
+def main(lot_subject: str = None, debug=False, center_only=True):
     try:
-        logger.info('Старт...')
-        main()
-        logger.info('Конец.')
+        start_time = datetime.datetime.now()
+        print(f"Начало: {start_time.strftime('%H:%M:%S')}")
+        logger.info(f'Скрипт запущен.')
+        
+        data_processing(lot_subject, debug, center_only)
+
+        print(f"Конец: {datetime.datetime.now().strftime('%H:%M:%S')}\nВремя выполнения скрипта: {datetime.datetime.now() - start_time}")
+        logger.info(f"Скрипт завершён. Время исполнения: {datetime.datetime.now() - start_time}\n")
+        # time.sleep(6000)
+
     except Exception as e:
         logger.critical(e, exc_info=True)
+        # time.sleep(6000)
+
+
+if __name__ == '__main__':
+    # logger.info("Ожидаю начала программы...")
+    main(lot_subject=['Липецкая область', 'Ненецкий автономный округ'])
+    
+    # schedule.every().day.at('09:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
+    # schedule.every().day.at('13:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
+    # schedule.every().day.at('18:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
+    # schedule.every().day.at('23:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
+    # schedule.every().day.at('05:00').do(main, lot_subject=['Калужская область', 'Тверская область'])
+    
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
+    # main(lot_subject='Московская область')

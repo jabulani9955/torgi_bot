@@ -1,0 +1,2612 @@
+[
+    {
+        "code": "TM136",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Мурманская обл",
+        "shortName": "Мурманская",
+        "okato": "47000000000"
+    },
+    {
+        "code": "TM134",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Московская обл",
+        "shortName": "Московская",
+        "okato": "46000000000"
+    },
+    {
+        "code": "TM248",
+        "name": "MSK+09:00 (UTC+12:00)",
+        "published": true,
+        "differenceTime": 720,
+        "russianName": "МСК+9",
+        "fullName": "Чукотский АО",
+        "shortName": "Чукотский",
+        "okato": "77000000000"
+    },
+    {
+        "code": "TM114",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Липецкая обл",
+        "shortName": "Липецкая",
+        "okato": "42000000000"
+    },
+    {
+        "code": "TM48",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Воронежская обл",
+        "shortName": "Воронежская",
+        "okato": "20000000000"
+    },
+    {
+        "code": "TM26",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Белгородская обл",
+        "shortName": "Белгородская",
+        "okato": "14000000000"
+    },
+    {
+        "code": "TM75",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Иркутская обл",
+        "shortName": "Иркутская",
+        "okato": "25000000000"
+    },
+    {
+        "code": "TM168",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Приморский край",
+        "shortName": "Приморский",
+        "okato": "05000000000"
+    },
+    {
+        "code": "TM228",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Форталеза",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM31",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Бразилия",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM12",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Арагуаяна",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM148",
+        "name": "MSK-06:30 (UTC-03:30)",
+        "published": true,
+        "differenceTime": -210,
+        "russianName": "МСК-6:30",
+        "fullName": "Ньюфаундленд",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM184",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Сантьяго",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM34",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Брюссель",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM100",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Копенгаген",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM215",
+        "name": "MSK+00:30 (UTC+03:30)",
+        "published": true,
+        "differenceTime": 210,
+        "russianName": "МСК+0:30",
+        "fullName": "Тегеран",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM98",
+        "name": "MSK+02:30 (UTC+05:30)",
+        "published": true,
+        "differenceTime": 330,
+        "russianName": "МСК+2:30",
+        "fullName": "Колката",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM14",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Архангельская обл",
+        "shortName": "Архангельская",
+        "okato": "11000000000"
+    },
+    {
+        "code": "TM77",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Кабардино-Балкарская Респ",
+        "shortName": "Кабардино-Балкарская",
+        "okato": "83000000000"
+    },
+    {
+        "code": "TM247",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Чувашская Республика - Чувашия",
+        "shortName": "Чувашская Республика -",
+        "okato": "97000000000"
+    },
+    {
+        "code": "TM107",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Курганская обл",
+        "shortName": "Курганская",
+        "okato": "37000000000"
+    },
+    {
+        "code": "TM190",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Саха /Якутия/ Респ1",
+        "shortName": "Саха /Якутия/",
+        "okato": "98000000000"
+    },
+    {
+        "code": "TM49",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Восточное время (США и Канада)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM126",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Мехико",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM50",
+        "name": "MSK-13:00 (UTC-10:00)",
+        "published": true,
+        "differenceTime": -600,
+        "russianName": "МСК-13",
+        "fullName": "Гавайи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM29",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Берн",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM42",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Вена",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM174",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Рим",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM9",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Амман",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM209",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Таллин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM206",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Стамбул",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM89",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Карачи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM253",
+        "name": "MSK+05:45 (UTC+08:45)",
+        "published": true,
+        "differenceTime": 525,
+        "russianName": "МСК+5:45",
+        "fullName": "Юкла",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM191",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Саха /Якутия/ Респ2",
+        "shortName": "Саха /Якутия/",
+        "okato": "98000000000"
+    },
+    {
+        "code": "TM78",
+        "name": "MSK-04:00 (UTC-01:00)",
+        "published": true,
+        "differenceTime": -60,
+        "russianName": "МСК-4",
+        "fullName": "Кабо-Верде",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM150",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "о. Пасхи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM27",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Белград",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM166",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Прага",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM201",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Скопье",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM137",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Мускат",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM110",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Кызылорда",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM105",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Куала-Лумпур",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM177",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Рязанская обл",
+        "shortName": "Рязанская",
+        "okato": "61000000000"
+    },
+    {
+        "code": "TM73",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ингушетия Респ",
+        "shortName": "Ингушетия",
+        "okato": "26000000000"
+    },
+    {
+        "code": "TM15",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Астраханская обл",
+        "shortName": "Астраханская",
+        "okato": "12000000000"
+    },
+    {
+        "code": "TM195",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Северная Осетия - Алания Респ",
+        "shortName": "Северная Осетия - Алания",
+        "okato": "90000000000"
+    },
+    {
+        "code": "TM221",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Тыва Респ",
+        "shortName": "Тыва",
+        "okato": "93000000000"
+    },
+    {
+        "code": "TM181",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Сан-Томе",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM127",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Микелон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM109",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Куяба",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM53",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Гвадалахара",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM5",
+        "name": "MSK-13:00 (UTC-10:00)",
+        "published": true,
+        "differenceTime": -600,
+        "russianName": "МСК-13",
+        "fullName": "Алеутские острова",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM43",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Вильнюс",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM219",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Триполи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM57",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Гуам",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM149",
+        "name": "MSK+11:00 (UTC+14:00)",
+        "published": true,
+        "differenceTime": 840,
+        "russianName": "МСК+11:00",
+        "fullName": "О-в Киритимати",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM220",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Тульская обл",
+        "shortName": "Тульская",
+        "okato": "70000000000"
+    },
+    {
+        "code": "TM183",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Санкт-Петербург",
+        "shortName": "Санкт-Петербург",
+        "okato": "40000000000"
+    },
+    {
+        "code": "TM102",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Краснодарский край",
+        "shortName": "Краснодарский",
+        "okato": "03000000000"
+    },
+    {
+        "code": "TM140",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Нижегородская обл",
+        "shortName": "Нижегородская",
+        "okato": "22000000000"
+    },
+    {
+        "code": "TM11",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Амурская обл",
+        "shortName": "Амурская",
+        "okato": "10000000000"
+    },
+    {
+        "code": "TM194",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Севастополь г",
+        "shortName": "Севастополь",
+        "okato": "67000000000"
+    },
+    {
+        "code": "TM65",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Дублин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM63",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Джорджтаун",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM122",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Манаус",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM74",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Индиана (восток)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM30",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Богота",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM121",
+        "name": "MSK-10:00 (UTC-07:00)",
+        "published": true,
+        "differenceTime": -420,
+        "russianName": "МСК-10",
+        "fullName": "Мазатлан",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM55",
+        "name": "MSK-10:00 (UTC-07:00)",
+        "published": true,
+        "differenceTime": -420,
+        "russianName": "МСК-10",
+        "fullName": "Горное время (США и Канада)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM8",
+        "name": "MSK-12:00 (UTC-09:00)",
+        "published": true,
+        "differenceTime": -540,
+        "russianName": "МСК-12",
+        "fullName": "Аляска",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM10",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Амстердам",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM208",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Тайбэй",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM155",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Осака",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM217",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Токио",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM2",
+        "name": "MSK+06:30 (UTC+09:30)",
+        "published": true,
+        "differenceTime": 570,
+        "russianName": "МСК+6:30",
+        "fullName": "Аделаида",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM33",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Брисбен",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM86",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Канберра",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM151",
+        "name": "MSK+09:00 (UTC+12:00)",
+        "published": true,
+        "differenceTime": 720,
+        "russianName": "МСК+9",
+        "fullName": "Окленд",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM227",
+        "name": "MSK+09:00 (UTC+12:00)",
+        "published": true,
+        "differenceTime": 720,
+        "russianName": "МСК+9",
+        "fullName": "Фиджи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM35",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Брянская обл",
+        "shortName": "Брянская",
+        "okato": "15000000000"
+    },
+    {
+        "code": "TM143",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Новгородская обл",
+        "shortName": "Новгородская",
+        "okato": "49000000000"
+    },
+    {
+        "code": "TM83",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Калмыкия Респ",
+        "shortName": "Калмыкия",
+        "okato": "85000000000"
+    },
+    {
+        "code": "TM58",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Дагестан Респ",
+        "shortName": "Дагестан",
+        "okato": "82000000000"
+    },
+    {
+        "code": "TM24",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Башкортостан Респ",
+        "shortName": "Башкортостан",
+        "okato": "80000000000"
+    },
+    {
+        "code": "TM7",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Алтайский край",
+        "shortName": "Алтайский",
+        "okato": "01000000000"
+    },
+    {
+        "code": "TM68",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Забайкальский край",
+        "shortName": "Забайкальский",
+        "okato": "76000000000"
+    },
+    {
+        "code": "TM189",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Саха /Якутия/ Респ",
+        "shortName": "Саха /Якутия/",
+        "okato": "98000000000"
+    },
+    {
+        "code": "TM192",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Сахалинская обл",
+        "shortName": "Сахалинская",
+        "okato": "64000000000"
+    },
+    {
+        "code": "TM81",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Кайенна",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM39",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Буэнос-Айрес",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM175",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Рио-Бранко",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM216",
+        "name": "MSK-11:00 (UTC-08:00)",
+        "published": true,
+        "differenceTime": -480,
+        "russianName": "МСК-11",
+        "fullName": "Тихоокеанское время (США и Канада)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM91",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Касабланка",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM173",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Рига",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM60",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Дамаск",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM252",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Эр-Рияд",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM1",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Абу-Даби",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM226",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Урумчи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM157",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Остров Норфолк",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM132",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Мордовия Респ",
+        "shortName": "Мордовия",
+        "okato": "89000000000"
+    },
+    {
+        "code": "TM108",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Курская обл",
+        "shortName": "Курская",
+        "okato": "38000000000"
+    },
+    {
+        "code": "TM211",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Татарстан Респ",
+        "shortName": "Татарстан",
+        "okato": "92000000000"
+    },
+    {
+        "code": "TM66",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Еврейская Аобл",
+        "shortName": "Еврейская",
+        "okato": "99000000000"
+    },
+    {
+        "code": "TM116",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Лондон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM96",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Кито",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM131",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Монтеррей",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM254",
+        "name": "MSK-10:00 (UTC-07:00)",
+        "published": true,
+        "differenceTime": -420,
+        "russianName": "МСК-10",
+        "fullName": "Юкон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM32",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Братислава",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM97",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Кишинев",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM22",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Баку",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM62",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Джакарта",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM198",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Сеул",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM169",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Псковская обл",
+        "shortName": "Псковская",
+        "okato": "58000000000"
+    },
+    {
+        "code": "TM230",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Хакасия Респ",
+        "shortName": "Хакасия",
+        "okato": "95000000000"
+    },
+    {
+        "code": "TM218",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Томская обл",
+        "shortName": "Томская",
+        "okato": "69000000000"
+    },
+    {
+        "code": "TM85",
+        "name": "MSK+09:00 (UTC+12:00)",
+        "published": true,
+        "differenceTime": 720,
+        "russianName": "МСК+9",
+        "fullName": "Камчатский край",
+        "shortName": "Камчатский",
+        "okato": "30000000000"
+    },
+    {
+        "code": "TM104",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Крым Респ",
+        "shortName": "Крым",
+        "okato": "35000000000"
+    },
+    {
+        "code": "TM251",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Эдинбург",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM197",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Сен-Пьер",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM178",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Сальвадор",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM69",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Загреб",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM18",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Афины",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM236",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Хельсинки",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM54",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Гонконг",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM61",
+        "name": "MSK+06:30 (UTC+09:30)",
+        "published": true,
+        "differenceTime": 570,
+        "russianName": "МСК+6:30",
+        "fullName": "Дарвин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM125",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Мельбурн",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM199",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Сидней",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM156",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Остров Бугенвиль",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM203",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Соломоновы о-ва",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM90",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Карелия Респ",
+        "shortName": "Карелия",
+        "okato": "86000000000"
+    },
+    {
+        "code": "TM257",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ярославская обл",
+        "shortName": "Ярославская",
+        "okato": "78000000000"
+    },
+    {
+        "code": "TM99",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Коми Респ",
+        "shortName": "Коми",
+        "okato": "87000000000"
+    },
+    {
+        "code": "TM82",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Калининградская обл",
+        "shortName": "Калининградская",
+        "okato": "27000000000"
+    },
+    {
+        "code": "TM205",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ставропольский край",
+        "shortName": "Ставропольский",
+        "okato": "07000000000"
+    },
+    {
+        "code": "TM176",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ростовская обл",
+        "shortName": "Ростовская",
+        "okato": "60000000000"
+    },
+    {
+        "code": "TM229",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Хабаровский край",
+        "shortName": "Хабаровский",
+        "okato": "08000000000"
+    },
+    {
+        "code": "TM4",
+        "name": "MSK-04:00 (UTC-01:00)",
+        "published": true,
+        "differenceTime": -60,
+        "russianName": "МСК-4",
+        "fullName": "Азорские о-ва",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM240",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Центральное время (США и Канада)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM207",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Стокгольм",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM118",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Любляна",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM40",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Варшава",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM147",
+        "name": "MSK+02:30 (UTC+05:30)",
+        "published": true,
+        "differenceTime": 330,
+        "russianName": "МСК+2:30",
+        "fullName": "Нью-Дели",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM92",
+        "name": "MSK+02:45 (UTC+05:45)",
+        "published": true,
+        "differenceTime": 345,
+        "russianName": "МСК+2:45",
+        "fullName": "Катманду",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM133",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Москва",
+        "shortName": "Москва",
+        "okato": "45000000000"
+    },
+    {
+        "code": "TM46",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Волгоградская обл",
+        "shortName": "Волгоградская",
+        "okato": "18000000000"
+    },
+    {
+        "code": "TM123",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Марий Эл Респ",
+        "shortName": "Марий Эл",
+        "okato": "88000000000"
+    },
+    {
+        "code": "TM242",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Челябинская обл",
+        "shortName": "Челябинская",
+        "okato": "75000000000"
+    },
+    {
+        "code": "TM255",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Ямало-Ненецкий АО",
+        "shortName": "Ямало-Ненецкий",
+        "okato": "71140000000"
+    },
+    {
+        "code": "TM56",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Гренландия",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM87",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Каракас",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM111",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Ла-Пас",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM158",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Острова Теркс и Кайкос",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM52",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Гаити",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM51",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Гавана",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM188",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Саскачеван",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM13",
+        "name": "MSK-10:00 (UTC-07:00)",
+        "published": true,
+        "differenceTime": -420,
+        "russianName": "МСК-10",
+        "fullName": "Аризона",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM28",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Берлин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM36",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Будапешт",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM94",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Киев",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM128",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Минск",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM79",
+        "name": "MSK+01:30 (UTC+04:30)",
+        "published": true,
+        "differenceTime": 270,
+        "russianName": "МСК+1:30",
+        "fullName": "Кабул",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM250",
+        "name": "MSK+02:30 (UTC+05:30)",
+        "published": true,
+        "differenceTime": 330,
+        "russianName": "МСК+2:30",
+        "fullName": "Шри-Джаявардене-пура-Котте",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM146",
+        "name": "MSK+03:00 (UTC+06:00)",
+        "published": true,
+        "differenceTime": 360,
+        "russianName": "МСК+3",
+        "fullName": "Нур-Султан",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM249",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Чунцин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM171",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Пхеньян",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM241",
+        "name": "MSK+09:45 (UTC+12:45)",
+        "published": true,
+        "differenceTime": 765,
+        "russianName": "МСК+9:45",
+        "fullName": "Чатем",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM45",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Владимирская обл",
+        "shortName": "Владимирская",
+        "okato": "17000000000"
+    },
+    {
+        "code": "TM101",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Костромская обл",
+        "shortName": "Костромская",
+        "okato": "34000000000"
+    },
+    {
+        "code": "TM139",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ненецкий АО",
+        "shortName": "Ненецкий",
+        "okato": "11100000000"
+    },
+    {
+        "code": "TM93",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Кемеровская область - Кузбасс обл",
+        "shortName": "Кемеровская область - Кузбасс",
+        "okato": "32000000000"
+    },
+    {
+        "code": "TM21",
+        "name": "MSK+03:00 (UTC+06:00)",
+        "published": true,
+        "differenceTime": 360,
+        "russianName": "МСК+3",
+        "fullName": "Байконур г",
+        "shortName": "Байконур",
+        "okato": "55000000000"
+    },
+    {
+        "code": "TM170",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Пунта-Аренас",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM120",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Мадрид",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM70",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Западная Центральная Африка",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM80",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Каир",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM20",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Багдад",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM106",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Кувейт",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM67",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Ереван",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM59",
+        "name": "MSK+03:00 (UTC+06:00)",
+        "published": true,
+        "differenceTime": 360,
+        "russianName": "МСК+3",
+        "fullName": "Дакка",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM23",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Бангкок",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM142",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Нов. Каледония",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM154",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Орловская обл",
+        "shortName": "Орловская",
+        "okato": "54000000000"
+    },
+    {
+        "code": "TM3",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Адыгея Респ",
+        "shortName": "Адыгея",
+        "okato": "79000000000"
+    },
+    {
+        "code": "TM88",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Карачаево-Черкесская Респ",
+        "shortName": "Карачаево-Черкесская",
+        "okato": "91000000000"
+    },
+    {
+        "code": "TM245",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Чеченская Респ",
+        "shortName": "Чеченская",
+        "okato": "96000000000"
+    },
+    {
+        "code": "TM244",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Четумаль",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM38",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Бухарест",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM25",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Бейрут",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM235",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Хеврон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM234",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Хартум",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM202",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Смоленская обл",
+        "shortName": "Смоленская",
+        "okato": "66000000000"
+    },
+    {
+        "code": "TM71",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ивановская обл",
+        "shortName": "Ивановская",
+        "okato": "24000000000"
+    },
+    {
+        "code": "TM210",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Тамбовская обл",
+        "shortName": "Тамбовская",
+        "okato": "68000000000"
+    },
+    {
+        "code": "TM47",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Вологодская обл",
+        "shortName": "Вологодская",
+        "okato": "19000000000"
+    },
+    {
+        "code": "TM153",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Оренбургская обл",
+        "shortName": "Оренбургская",
+        "okato": "53000000000"
+    },
+    {
+        "code": "TM161",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Пензенская обл",
+        "shortName": "Пензенская",
+        "okato": "56000000000"
+    },
+    {
+        "code": "TM144",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Новосибирская обл",
+        "shortName": "Новосибирская",
+        "okato": "50000000000"
+    },
+    {
+        "code": "TM152",
+        "name": "MSK+03:00 (UTC+06:00)",
+        "published": true,
+        "differenceTime": 360,
+        "russianName": "МСК+3",
+        "fullName": "Омская обл",
+        "shortName": "Омская",
+        "okato": "52000000000"
+    },
+    {
+        "code": "TM103",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Красноярский край",
+        "shortName": "Красноярский",
+        "okato": "04000000000"
+    },
+    {
+        "code": "TM246",
+        "name": "MSK-10:00 (UTC-07:00)",
+        "published": true,
+        "differenceTime": -420,
+        "russianName": "МСК-10",
+        "fullName": "Чихуахуа",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM141",
+        "name": "MSK-11:00 (UTC-08:00)",
+        "published": true,
+        "differenceTime": -480,
+        "russianName": "МСК-11",
+        "fullName": "Нижняя Калифорния",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM124",
+        "name": "MSK-12:30 (UTC-09:30)",
+        "published": true,
+        "differenceTime": -570,
+        "russianName": "МСК-12:30",
+        "fullName": "Маркизские острова",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM138",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Найроби",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM164",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Порт-Луи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM213",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Тбилиси",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM238",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Ховд",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM160",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Пекин",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM163",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Перт",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM237",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Хобарт",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM117",
+        "name": "MSK+07:30 (UTC+10:30)",
+        "published": true,
+        "differenceTime": 630,
+        "russianName": "МСК+7:30",
+        "fullName": "Лорд-Хау",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM214",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Тверская обл",
+        "shortName": "Тверская",
+        "okato": "28000000000"
+    },
+    {
+        "code": "TM179",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Самарская обл",
+        "shortName": "Самарская",
+        "okato": "36000000000"
+    },
+    {
+        "code": "TM172",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Рейкьявик",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM129",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Монровия",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM182",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Сан-Хуан",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM17",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Атлантическое время (Канада)",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM113",
+        "name": "MSK-08:00 (UTC-05:00)",
+        "published": true,
+        "differenceTime": -300,
+        "russianName": "МСК-8",
+        "fullName": "Лима",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM239",
+        "name": "MSK-09:00 (UTC-06:00)",
+        "published": true,
+        "differenceTime": -360,
+        "russianName": "МСК-9",
+        "fullName": "Центральная Америка",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM159",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Париж",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM44",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Виндхук",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM64",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Джуба",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM72",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Иерусалим",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM196",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Сектор Газа",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM167",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Претория",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM200",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Сингапур",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM224",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Улан-Батор",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM185",
+        "name": "MSK+06:00 (UTC+09:00)",
+        "published": true,
+        "differenceTime": 540,
+        "russianName": "МСК+6",
+        "fullName": "Саппоро",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM41",
+        "name": "MSK+09:00 (UTC+12:00)",
+        "published": true,
+        "differenceTime": 720,
+        "russianName": "МСК+9",
+        "fullName": "Веллингтон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM145",
+        "name": "MSK+10:00 (UTC+13:00)",
+        "published": true,
+        "differenceTime": 780,
+        "russianName": "МСК+10:00",
+        "fullName": "Нукуалофа",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM112",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Ленинградская обл",
+        "shortName": "Ленинградская",
+        "okato": "41000000000"
+    },
+    {
+        "code": "TM95",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Кировская обл",
+        "shortName": "Кировская",
+        "okato": "33000000000"
+    },
+    {
+        "code": "TM162",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Пермский край",
+        "shortName": "Пермский",
+        "okato": "57000000000"
+    },
+    {
+        "code": "TM225",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Ульяновская обл",
+        "shortName": "Ульяновская",
+        "okato": "73000000000"
+    },
+    {
+        "code": "TM222",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Тюменская обл",
+        "shortName": "Тюменская",
+        "okato": "71000000000"
+    },
+    {
+        "code": "TM193",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Свердловская обл",
+        "shortName": "Свердловская",
+        "okato": "65000000000"
+    },
+    {
+        "code": "TM37",
+        "name": "MSK+05:00 (UTC+08:00)",
+        "published": true,
+        "differenceTime": 480,
+        "russianName": "МСК+5",
+        "fullName": "Бурятия Респ",
+        "shortName": "Бурятия",
+        "okato": "81000000000"
+    },
+    {
+        "code": "TM130",
+        "name": "MSK-06:00 (UTC-03:00)",
+        "published": true,
+        "differenceTime": -180,
+        "russianName": "МСК-6",
+        "fullName": "Монтевидео",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM16",
+        "name": "MSK-07:00 (UTC-04:00)",
+        "published": true,
+        "differenceTime": -240,
+        "russianName": "МСК-7",
+        "fullName": "Асунсьон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM204",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "София",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM233",
+        "name": "MSK-01:00 (UTC+02:00)",
+        "published": true,
+        "differenceTime": 120,
+        "russianName": "МСК-1",
+        "fullName": "Хараре",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM212",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Ташкент",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM256",
+        "name": "MSK+03:30 (UTC+06:30)",
+        "published": true,
+        "differenceTime": 390,
+        "russianName": "МСК+3:30",
+        "fullName": "Янгон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM231",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Ханой",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM180",
+        "name": "MSK+10:00 (UTC+13:00)",
+        "published": true,
+        "differenceTime": 780,
+        "russianName": "МСК+10:00",
+        "fullName": "Самоа",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM84",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Калужская обл",
+        "shortName": "Калужская",
+        "okato": "29000000000"
+    },
+    {
+        "code": "TM223",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Удмуртская Респ",
+        "shortName": "Удмуртская",
+        "okato": "94000000000"
+    },
+    {
+        "code": "TM187",
+        "name": "MSK+01:00 (UTC+04:00)",
+        "published": true,
+        "differenceTime": 240,
+        "russianName": "МСК+1",
+        "fullName": "Саратовская обл",
+        "shortName": "Саратовская",
+        "okato": "63000000000"
+    },
+    {
+        "code": "TM232",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Ханты-Мансийский Автономный округ - Югра АО",
+        "shortName": "Ханты-Мансийский Автономный округ - Югра",
+        "okato": "71100000000"
+    },
+    {
+        "code": "TM6",
+        "name": "MSK+04:00 (UTC+07:00)",
+        "published": true,
+        "differenceTime": 420,
+        "russianName": "МСК+4",
+        "fullName": "Алтай Респ",
+        "shortName": "Алтай",
+        "okato": "84000000000"
+    },
+    {
+        "code": "TM119",
+        "name": "MSK+08:00 (UTC+11:00)",
+        "published": true,
+        "differenceTime": 660,
+        "russianName": "МСК+8",
+        "fullName": "Магаданская обл",
+        "shortName": "Магаданская",
+        "okato": "44000000000"
+    },
+    {
+        "code": "TM115",
+        "name": "MSK-03:00 (UTC+00:00)",
+        "published": true,
+        "differenceTime": 0,
+        "russianName": "МСК-3",
+        "fullName": "Лиссабон",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM186",
+        "name": "MSK-02:00 (UTC+01:00)",
+        "published": true,
+        "differenceTime": 60,
+        "russianName": "МСК-2",
+        "fullName": "Сараево",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM19",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Ашхабад",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM76",
+        "name": "MSK+02:00 (UTC+05:00)",
+        "published": true,
+        "differenceTime": 300,
+        "russianName": "МСК+2",
+        "fullName": "Исламабад",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM135",
+        "name": "MSK+02:30 (UTC+05:30)",
+        "published": true,
+        "differenceTime": 330,
+        "russianName": "МСК+2:30",
+        "fullName": "Мумбаи",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM243",
+        "name": "MSK+02:30 (UTC+05:30)",
+        "published": true,
+        "differenceTime": 330,
+        "russianName": "МСК+2:30",
+        "fullName": "Ченнай",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM165",
+        "name": "MSK+07:00 (UTC+10:00)",
+        "published": true,
+        "differenceTime": 600,
+        "russianName": "МСК+7",
+        "fullName": "Порт-Морсби",
+        "shortName": "",
+        "okato": "0"
+    },
+    {
+        "code": "TM258",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Донецкая народная республика",
+        "shortName": "Донецкая",
+        "okato": "21000000000"
+    },
+    {
+        "code": "TM259",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Луганская народная республика",
+        "shortName": "Луганская",
+        "okato": "43000000000"
+    },
+    {
+        "code": "TM260",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Запорожская область",
+        "shortName": "Запорожская",
+        "okato": "23000000000"
+    },
+    {
+        "code": "TM261",
+        "name": "MSK+00:00 (UTC+03:00)",
+        "published": true,
+        "differenceTime": 180,
+        "russianName": "МСК",
+        "fullName": "Херсонская область",
+        "shortName": "Херсонская",
+        "okato": "74000000000"
+    }
+]

@@ -1,16 +1,23 @@
-# Project files to hide
+# Project dirs and files to hide
 parser_env/
 python39_env/
-
-data/
 output/
+data/maps
+data/tmp
+data/torgi_json_files
+torgi/notebook.ipynb
+asd.py
+
+torgi.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.vscode
 *.py[cod]
 *$py.class
-
+*.html
 # C extensions
 *.so
+
 
 # Distribution / packaging
 .Python
