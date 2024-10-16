@@ -34,8 +34,11 @@ def main(lot_subject: str = None, debug=False, center_only=True):
 
 
 if __name__ == '__main__':
-    # logger.info("Ожидаю начала программы...")
-    main(lot_subject=['Липецкая область', 'Ненецкий автономный округ'])
+    # Для запуска парсинга по опроедённым субъектам
+    # main(lot_subject=['Липецкая область', 'Ненецкий автономный округ'])
+
+    # Для запуска парсинга по всем субъектам РФ
+    main()
     
     # schedule.every().day.at('09:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
     # schedule.every().day.at('13:30').do(main, lot_subject=['Калужская область', 'Тверская область'])
