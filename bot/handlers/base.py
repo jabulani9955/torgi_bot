@@ -15,7 +15,7 @@ async def command_start(message: Message, state: FSMContext) -> None:
     """Обработчик команды /start"""
     await state.clear()
     await message.answer(
-        "Привет! Я помогу получить нужную информацию из сайта 'torgi.gov.ru' :)\n"
+        "Привет!\nЯ помогу получить нужную информацию из сайта torgi.gov.ru\n"
         "Нажми на кнопку ⚙️ Настройки для настройки поиска",
         reply_markup=get_main_menu_keyboard()
     )
