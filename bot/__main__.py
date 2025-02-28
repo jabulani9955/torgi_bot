@@ -13,6 +13,7 @@ from bot.handlers import register_all_handlers
 from bot.keyboards import register_all_keyboards
 from bot.keyboards.menu import get_bot_commands
 from bot.middlewares import register_all_middlewares
+from bot.services import init_redis
 
 
 async def main():
@@ -50,6 +51,9 @@ async def main():
 
     # Загрузка конфигурации
     config: Config = load_config()
+    
+    # Инициализация Redis
+    redis = await init_redis(config)
 
     # Инициализация бота и диспетчера с новыми параметрами
     default = DefaultBotProperties(parse_mode=ParseMode.HTML)
@@ -66,7 +70,13 @@ async def main():
 
     # Запуск бота
     logger.info("Starting bot")
-    await dp.start_polling(bot)
+    try:
+        await dp.start_polling(bot)
+    finally:
+        # Закрываем соединение с Redis при завершении
+        if redis:
+            await redis.close()
+            logger.info("Redis connection closed")
 
 
 if __name__ == "__main__":

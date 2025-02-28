@@ -3,6 +3,7 @@ import json
 import logging
 import re
 import warnings
+from datetime import datetime
 
 import pandas as pd
 import numpy as np
@@ -20,100 +21,29 @@ logger = logging.getLogger(__name__)
 
 def load_constants(path_to_const_data: str = 'const_filters') -> tuple:
     """Загружает константы из JSON-файлов"""
-
-    # Subjects - используем новый файл с измененной структурой
-    with open(os.path.join(path_to_const_data, 'dynSubRF_new.json'), encoding='utf-8') as f_sub:
-        subjects_data_raw = json.load(f_sub)
-        
-    # Преобразуем данные в формат, совместимый с остальным кодом
-    subjects_data = []
-    for item in subjects_data_raw[0]['mappingTable']:
-        subjects_data.append({
-            "code": item["code"],
-            "name": item["baseAttrValue"]["name"],
-            "subjectRFCode": item["baseAttrValue"]["code"],  # Добавляем код для сопоставления с ответом API
-            "railway_source": ""  # Добавляем пустое значение для совместимости
-        })
-    
-    # Categories
-    with open(os.path.join(path_to_const_data, 'catCode.json'), encoding='utf-8') as f_cat:
-        categories_data = json.load(f_cat)
-
-    return subjects_data, categories_data
-
-
-def collect_data(
-    subject: str,
-    subjects_data: list,
-    categories_data: list,
-    category: str = 'Земельные участки',
-    status: list = ['APPLICATIONS_SUBMISSION', 'PUBLISHED'],
-    search_text: str = None,
-) -> str:
-    """ Description. """
-
-    time_now = datetime.now().strftime('%Y%m%d_%H%M%S')
-    BASE_URL = 'https://torgi.gov.ru/new/api/public/lotcards/search'
-    url_params = {
-        'page': 0
-    }
-    
-    r"https://torgi.gov.ru/new/api/public/lotcards/search?dynSubjRF=58&lotStatus=PUBLISHED,APPLICATIONS_SUBMISSION&size=10&sort=firstVersionPublicationDate,desc"
-
-
-    logger.info('Начинаю собирать данные...')
-    logger.info(f'\t\tСубъект: "{subject}"')
-    subject_code = [sub.get('code') for sub in subjects_data if sub.get('name') == subject][0]
-    url_params['dynSubjRF'] = subject_code
-    
-    if search_text:
-        url_params['text'] = search_text
-
-    if status:
-        url_params['lotStatus'] = ','.join(status)
-
-    if category:
-        cat_code = [cat.get('code') for cat in categories_data if cat.get('name') == category][0]
-        url_params['catCode'] = cat_code
-    
-    full_json_data = []
-    response = requests.get(BASE_URL, params=url_params)
-
-    if response.status_code != 200:
-        logger.error(f'Код {response.status_code}.')
-        print(f'Код {response.status_code}.')
-        return None
-    
     try:
-        json_data = response.json()    
-    except Exception:
-        response.encoding = 'utf-8'
-        soup = BeautifulSoup(response.text, 'lxml')
-        return [i.text.strip() for i in soup.find_all("div", {"class": "message-text"})]
-    
-    num_pages = json_data['totalPages']
-    if num_pages == 0:
-        return None
+        # Subjects - используем новый файл с измененной структурой
+        with open(os.path.join(path_to_const_data, 'dynSubRF_new.json'), encoding='utf-8') as f_sub:
+            subjects_data_raw = json.load(f_sub)
+            
+        # Преобразуем данные в формат, совместимый с остальным кодом
+        subjects_data = []
+        for item in subjects_data_raw[0]['mappingTable']:
+            subjects_data.append({
+                "code": item["code"],
+                "name": item["baseAttrValue"]["name"],
+                "subjectRFCode": item["baseAttrValue"]["code"],  # Добавляем код для сопоставления с ответом API
+                "railway_source": ""  # Добавляем пустое значение для совместимости
+            })
         
-    logger.info(f"Получена страница 1/{num_pages} сайта torgi.gov.ru")
+        # Categories
+        with open(os.path.join(path_to_const_data, 'catCode.json'), encoding='utf-8') as f_cat:
+            categories_data = json.load(f_cat)
 
-    full_json_data.append(json_data)
-    for page_num in range(1, num_pages):
-        url_params['page'] = page_num
-        full_json_data.append(requests.get(BASE_URL, params=url_params).json())
-        logger.info(f"Получена страница {page_num+1}/{num_pages} сайта torgi.gov.ru")
-
-    filepath = os.path.join('data', 'torgi_json_files')
-    filename = f"TORGI_{subject.replace(' ', '_')}_{time_now}.json"
-    
-    if not os.path.exists(filepath):
-        os.makedirs(filepath)
-
-    with open(os.path.join(filepath, filename), 'w', encoding='utf-8') as f:
-        json.dump(full_json_data, f, indent=4, ensure_ascii=False)
-
-    logger.info(f"JSON-файл с информацией о лотах сохранён по адресу: {os.path.join(filepath, filename)}")
-    return os.path.join(filepath, filename)
+        return subjects_data, categories_data
+    except Exception as e:
+        logger.error(f"Ошибка при загрузке констант: {e}")
+        return [], []
 
 
 def fill_cadastr_num(character, desc):
@@ -209,7 +139,7 @@ def fill_rent_period(attributes):
 def get_additional_data(id):
     try:
         url = f"https://torgi.gov.ru/new/api/public/lotcards/{id}"
-        response = requests.get(url)
+        response = requests.get(url, verify=False)
         json_data = response.json()
 
         auction_start_date = json_data.get('auctionStartDate')

@@ -2,6 +2,16 @@
 
 Telegram бот для получения данных с torgi.gov.ru
 
+## Настройка
+
+1. Создайте файл `.env` на основе `.env.example`
+2. Укажите токен бота в переменной `BOT_TOKEN`
+3. Настройте другие параметры по необходимости:
+   - `USE_REDIS` - использовать Redis для хранения состояний (true/false)
+   - `REDIS_HOST` - хост Redis
+   - `REDIS_PORT` - порт Redis
+   - `CALCULATE_COORDINATES` - рассчитывать координаты по кадастровым номерам (true/false)
+
 ## Локальная разработка
 
 1. Создайте виртуальное окружение:
@@ -25,6 +35,7 @@ cp .env.example .env
 ```
 BOT_TOKEN=your_bot_token_here
 USE_REDIS=false
+CALCULATE_COORDINATES=false
 ```
 
 5. Запустите бота:
@@ -46,6 +57,7 @@ BOT_TOKEN=your_bot_token_here
 USE_REDIS=true
 REDIS_HOST=redis
 REDIS_PORT=6379
+CALCULATE_COORDINATES=true
 ```
 
 3. Запустите с помощью Docker Compose:
@@ -108,6 +120,8 @@ git push origin feature/new-feature
 
 - Выбор субъектов РФ
 - Выбор статусов лотов
-- Получение данных в формате Excel
+- Выбор периода проведения торгов
+- Опция расчета координат по кадастровым номерам
+- Получение данных в формате Excel с ID лота
 - Поддержка множественного выбора параметров
 - Пагинация для удобного выбора субъектов
