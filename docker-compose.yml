@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: torgi_bot
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+    environment:
+      - TZ=Europe/Moscow
+      - REDIS_HOST=redis
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    container_name: torgi_bot_redis
+    restart: always
+    volumes:
+      - redis_data:/data
+    command: redis-server --save 60 1 --loglevel warning
+
+volumes:
+  redis_data: 

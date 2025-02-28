@@ -1,0 +1,1656 @@
+{
+  "content": [
+    {
+      "id": "21000003300000000258_1",
+      "noticeNumber": "21000003300000000258",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок ориентировочной площадью 580 кв.м, местоположением: Волгоградская область, г. Волгоград, Красноармейский район, квартал 08_08_029(4), позиция 6 (в соответствии с проектом планировки и межевания территории жилого района \"Заря\" по ул. им. Куйбышева Красноармейского района, утвержденным постановлением администрации Волгограда от 12.03.2010 № 516), для индивидуального жилищного строительства, категория земель: земли населенных пунктов (схема прилагается)",
+      "lotDescription": "Земельный участок ориентировочной площадью 580 кв.м, местоположением: Волгоградская область, г. Волгоград, Красноармейский район, квартал 08_08_029(4), позиция 6 (в соответствии с проектом планировки и межевания территории жилого района \"Заря\" по ул. им. Куйбышева Красноармейского района, утвержденным постановлением администрации Волгограда от 12.03.2010 № 516)",
+      "biddEndTime": "2025-02-26T20:59:00.000+00:00",
+      "lotImages": [
+        "679778471b9769662db9119f"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.1",
+              "selectNsi": "PermittedUse",
+              "code": "2.1",
+              "name": "Для индивидуального жилищного строительства",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "11:11:111111:11",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "580.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-27T12:59:30.242+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "value": "Постановление администрации Волгограда от 12.03.2010 № 516",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "для индивидуального жилищного строительства ",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "value": "https://www.volgadmin.ru/d/branches/grad/CityBuilding/PP7/566",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "value": "400066, г. Волгоград, ул. им. Гагарина, 16, департамент муниципального имущества администрации Волгограда, каб. 10 (согласно графику работы: пн-пт с 8.30 до 17.30 час., обеденный перерыв – с 12.30 до 13.30 час.)",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-27T13:01:20.114Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "21000034570000000045_1",
+      "noticeNumber": "21000034570000000045",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "земельный участок",
+      "lotDescription": "земельный участок из земель населенных пунктов, вид разрешенного использования: Для ведения личного подсобного хозяйства, площадью 2058 кв.м., расположенный по адресу: обл. Волгоградская, р-н Ольховский, с. Солодча, с кадастровым номером 34:22:120103:281",
+      "biddEndTime": "2025-02-27T13:42:00.000+00:00",
+      "lotImages": [
+        "67975f85240e282e9761f7ca"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.2",
+              "selectNsi": "PermittedUse",
+              "code": "2.2",
+              "name": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:22:120103:281",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "2058.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-27T10:29:17.084+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "Для ведения личного подсобного хозяйства",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "value": "Волгоградская область, Ольховский район, с. Ольховка, ул. Комсомольская 7, кабинет № 9: понедельник, среда, пятница с 8-30 ч. до 12-00 ч.; Телефон: (84456) 2 – 15 – 80",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-27T10:29:36.732Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "21000024960000000065_1",
+      "noticeNumber": "21000024960000000065",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участка площадью 1573 кв.м., категории земель: земли населенных пунктов, вид разрешенного использования: для ведения личного подсобного хозяйства (приусадебный земельный участок), расположенного по адресу: Волгоградская область, Калачевский район, х.Степаневка.",
+      "lotDescription": "Земельный участка площадью 1573 кв.м., категории земель: земли населенных пунктов, вид разрешенного использования: для ведения личного подсобного хозяйства (приусадебный земельный участок), расположенного по адресу: Волгоградская область, Калачевский район, х.Степаневка.",
+      "biddEndTime": "2025-02-25T07:00:00.000+00:00",
+      "lotImages": [
+        "67933cc91b9769662db77d4e"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.2",
+              "selectNsi": "PermittedUse",
+              "code": "2.2",
+              "name": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "1573.0",
+          "name": "Площадь земельного участка в соответствии с проектом межевания территории или со схемой расположения ",
+          "code": "SquareZU_project",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "characteristicValue": {
+            "code": "landsSettlements",
+            "name": "Земли населенных пунктов",
+            "actual": false
+          },
+          "name": "Назначение земельного участка",
+          "code": "PurposeZU",
+          "type": "Select"
+        },
+        {
+          "characteristicValue": "34:09:080604:зу1",
+          "name": "Условный номер земельного участка",
+          "code": "ConditionalNumber",
+          "type": "Text(20)"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "307",
+        "name": "Земельные участки (не образованы)"
+      },
+      "createDate": "2025-01-24T07:13:43.522+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "value": "404507, Волгоградская область, г.Калач-на-Дону, ул.Октябрьская, 71, комитет по управлению муниципальным имуществом и земельными ресурсами администрации Калачевского муниципального района Волгоградской области, каб. № 15 (приемные дни: вторник, четверг с 09.00ч. до 16.00ч., перерыв с 12-00 час. до 13-00 час). Телефоны для справок:  8 (84472) 3-11-73.",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-24T07:14:29.435Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "22000003850000000055_1",
+      "noticeNumber": "22000003850000000055",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок, расположенный по адресу: Волгоградская область, Новоаннинский р-н, г. Новоаннинский, ул. Молодежная, д. 4, кадастровый номер: 34:19:100239:443",
+      "lotDescription": "Предоставление в аренду сроком на 20 (двадцать) лет земельного участка, расположенного по адресу: Волгоградская область, Новоаннинский р-н, г. Новоаннинский, ул. Молодежная, д. 4.,кадастровый номер: 34:19:100239:443",
+      "biddEndTime": "2025-02-22T09:00:00.000+00:00",
+      "lotImages": [
+        "6791d874233bfd02e4fd435e"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.1",
+              "selectNsi": "PermittedUse",
+              "code": "2.1",
+              "name": "Для индивидуального жилищного строительства",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:19:100239:443",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "1490.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-23T06:11:33.457+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "для индивидуального жилищного строительства",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-23T06:15:39.324Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "21000033730000000049_1",
+      "noticeNumber": "21000033730000000049",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Лот №1",
+      "lotDescription": "Информация о праве граждан, заинтересованных в предоставлении земельного участка, подавать заявления о намерении участвовать в аукционе на право заключения договора аренды земельного участка",
+      "biddEndTime": "2025-02-22T05:30:00.000+00:00",
+      "lotImages": [
+        "6790d799233bfd02e4fcbb7b"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.2",
+              "selectNsi": "PermittedUse",
+              "code": "2.2",
+              "name": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "4815.0",
+          "name": "Площадь земельного участка в соответствии с проектом межевания территории или со схемой расположения ",
+          "code": "SquareZU_project",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "characteristicValue": {
+            "code": "landsSettlements",
+            "name": "Земли населенных пунктов",
+            "actual": false
+          },
+          "name": "Назначение земельного участка",
+          "code": "PurposeZU",
+          "type": "Select"
+        },
+        {
+          "characteristicValue": "ЗУ 1",
+          "name": "Условный номер земельного участка",
+          "code": "ConditionalNumber",
+          "type": "Text(20)"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "307",
+        "name": "Земельные участки (не образованы)"
+      },
+      "createDate": "2025-01-22T11:38:27.682+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "Для ведения личного подсобного хозяйства",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "value": "Волгоградская область, Киквидзенский район, станица Преображенская, ул. Мира, 55, каб. 3, в рабочие дни с 8 час. 30 мин. до 12 час. 00 мин. и с 13 час. 06 мин до 16 час. 00 мин. (время московское).",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-22T11:45:37.37Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "22000158810000000076_1",
+      "noticeNumber": "22000158810000000076",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок",
+      "lotDescription": "площадью 3000 кв.м., кадастровый номер: 34:08:140108:1335, расположенного по адресу: Волгоградская область, Иловлинский район, х. Краснодонский, категория земель: земли населенных пунктов, вид разрешенного использования: для ведения личного подсобного хозяйства (приусадебный земельный участок), согласно ст. 56, ст. 56.1 Земельного кодекса Российской Федерации на земельный участок не установлены",
+      "biddEndTime": "2025-02-25T14:00:00.000+00:00",
+      "lotImages": [
+        "678f5e651b9769662db4d780"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.2",
+              "selectNsi": "PermittedUse",
+              "code": "2.2",
+              "name": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:08:140108:1335",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "3000.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-21T08:45:24.438+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "Аренда",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-21T10:30:49.518Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "22000158810000000076_2",
+      "noticeNumber": "22000158810000000076",
+      "lotNumber": 2,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок",
+      "lotDescription": "площадью 1327 кв.м., кадастровый номер: 34:08:060102:1046, расположенного по адресу: Волгоградская область, Иловлинский район, ст-ца Новогригорьевская, категория земель: земли населенных пунктов, вид разрешенного использования: для ведения личного подсобного хозяйства (приусадебный земельный участок), согласно ст. 56 Земельного кодекса Российской Федерации на земельный участок установлены: постановление администрации Иловлинского муниципального района Волгоградской области \"Об установлении публичного сервитута\" от 18.10.2021 № 794, постановление администрации Иловлинского муниципального района Волгоградской области \"О внесении изменений в некоторые постановления администрации Иловлинского муниципального района Волгоградской области\" от 20.05.2022 № 369, постановление Правительства Российской Федерации \"О порядке установления охранных зон объектов электросетевого хозяйства и особых условий использования земельных участков, расположенных в границах таких зон\" от 24.02.2009 № 160,",
+      "biddEndTime": "2025-02-25T14:00:00.000+00:00",
+      "lotImages": [
+        "678f76e2233bfd02e4fb6280"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.2",
+              "selectNsi": "PermittedUse",
+              "code": "2.2",
+              "name": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:08:060102:1046",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "1327.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-21T08:45:24.438+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "Аренда",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-21T10:30:49.518Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "22000096480000000036_1",
+      "noticeNumber": "22000096480000000036",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "земельный участок",
+      "lotDescription": "указано в извещении",
+      "biddEndTime": "2025-02-21T14:00:00.000+00:00",
+      "lotImages": [
+        "678f540b240e282e975dd341"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "1.0",
+              "selectNsi": "PermittedUse",
+              "code": "1.0",
+              "name": "Сельскохозяйственное использование",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:24:020202:405",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "46340.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-21T08:02:30.948+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_DecisionLandSurveyingProject_IPS(ZK)",
+          "fullName": "Реквизиты решения об утверждении проекта межевания территории",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 1
+        },
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "хранение и переработка сельскохозяйственной продукции",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        },
+        {
+          "code": "DA_forFarms_IPS(ZK)",
+          "fullName": "Для крестьянских (фермерских) хозяйств",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 5
+        },
+        {
+          "code": "DA_forAgricultural_IPS(ZK)",
+          "fullName": "Для сельскохозяйственных организаций",
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 6
+        },
+        {
+          "code": "DA_WebsiteForLandSurveyingProject_IPS(ZK)",
+          "fullName": "Адрес сайта в информационно-телекоммуникационной сети \"Интернет\", на котором размещен утвержденный проект межевания территории",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 7
+        },
+        {
+          "code": "DA_PaperSchemeInforming_IPS(ZK)",
+          "fullName": "Адрес и время приема граждан для ознакомления со схемой расположения земельного участка, в соответствии с которой предстоит образовать земельный участок, если данная схема представлена на бумажном носителе",
+          "value": "Подать заявление о намерении участвовать в аукционе по предоставлению в аренду земельного участка можно в течение 30 дней со дня опубликования данного информационного сообщения лично заявителями (их законными представителями) или почтовым отправлением по адресу: 403402, Волгоградская обл., Кумылженский р-н, ст. Кумылженская, ул. Мира, 18, а также через МФЦ по адресу: 403402, Волгоградская обл., Кумылженский р-н, ст, Кумылженская, ул. Блинова, 1",
+          "attributeType": "Text(500)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 8
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-21T08:04:28.423Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "21000029410000000177_1",
+      "noticeNumber": "21000029410000000177",
+      "lotNumber": 1,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок с кадастровым номером 34:37:010108:126",
+      "lotDescription": "Волгоградская область,  город Михайловка, ул. Сальская,  земельный участок 10, из категории земель: земли населенных пунктов, площадью 1000,0 кв.м., с кадастровым номером 34:37:010108:126,  вид разрешенного использования – для индивидуального жилищного строительства",
+      "biddEndTime": "2025-02-20T14:00:00.000+00:00",
+      "lotImages": [
+        "678f4189518afa60ddf8f3ff"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.1",
+              "selectNsi": "PermittedUse",
+              "code": "2.1",
+              "name": "Для индивидуального жилищного строительства",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:37:010108:126",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "1000.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-21T06:56:39.439+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "для индивидуального жилищного строительства",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-21T06:57:35.276Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    },
+    {
+      "id": "21000029410000000177_2",
+      "noticeNumber": "21000029410000000177",
+      "lotNumber": 2,
+      "lotStatus": "SUCCEED",
+      "biddType": {
+        "code": "ZK",
+        "name": "Аренда и продажа земельных участков"
+      },
+      "biddForm": {
+        "code": "IPS",
+        "name": "Сообщение о предоставлении (реализации)"
+      },
+      "lotName": "Земельный участок с кадастровым номером 34:37:010108:123",
+      "lotDescription": "Волгоградская область,  город Михайловка, ул. Сальская,  земельный участок 12, из категории земель: земли населенных пунктов, площадью 1000,0 кв.м., с кадастровым номером 34:37:010108:123,  вид разрешенного использования – для индивидуального жилищного строительства",
+      "biddEndTime": "2025-02-20T14:00:00.000+00:00",
+      "lotImages": [
+        "678f420b240e282e975db66a"
+      ],
+      "characteristics": [
+        {
+          "characteristicValue": [
+            {
+              "value": "2.1",
+              "selectNsi": "PermittedUse",
+              "code": "2.1",
+              "name": "Для индивидуального жилищного строительства",
+              "actual": false
+            }
+          ],
+          "name": "Вид разрешённого использования земельного участка",
+          "code": "PermittedUse",
+          "type": "Multiselect"
+        },
+        {
+          "characteristicValue": "34:37:010108:123",
+          "name": "Кадастровый номер земельного участка",
+          "code": "CadastralNumber",
+          "type": "Text(500)"
+        },
+        {
+          "characteristicValue": "1000.0",
+          "name": "Площадь земельного участка",
+          "code": "SquareZU",
+          "unit": {
+            "code": "055",
+            "name": "Квадратный метр",
+            "symbol": "м^2"
+          },
+          "type": "Decimal"
+        },
+        {
+          "name": "Регистрационный номер ЕГРОКН",
+          "code": "regNumberEGROKN",
+          "type": "String"
+        }
+      ],
+      "currencyCode": "643",
+      "subjectRFCode": "34",
+      "category": {
+        "code": "301",
+        "name": "Земли населенных пунктов"
+      },
+      "createDate": "2025-01-21T06:56:39.439+00:00",
+      "timeZoneName": "МСК",
+      "timezoneOffset": "180",
+      "hasAppeals": false,
+      "isStopped": false,
+      "attributes": [
+        {
+          "code": "DA_PurposeProviding_IPS(ZK)",
+          "fullName": "Цель предоставления земельного участка",
+          "value": "для индивидуального жилищного строительства",
+          "attributeType": "Text(100)",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 2
+        },
+        {
+          "code": "DA_contractType_IPS(ZK)",
+          "fullName": "Вид договора",
+          "value": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "attributeType": "Select",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 3
+        },
+        {
+          "code": "DA_forCitizens_IPS(ZK)",
+          "fullName": "Для граждан",
+          "value": true,
+          "attributeType": "Checker",
+          "group": {
+            "code": "NL250",
+            "name": "5.3 Лот_основная_информация",
+            "displayGroupType": "LOT"
+          },
+          "sortOrder": 4
+        }
+      ],
+      "isAnnulled": false,
+      "noticeFirstVersionPublicationDate": "2025-01-21T06:57:35.276Z",
+      "npaHintCode": "hint1_ZK",
+      "typeTransaction": "rent"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "pageNumber": 0,
+    "pageSize": 10,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "categoryFacet": [
+    {
+      "_id": "301",
+      "count": 2029
+    },
+    {
+      "_id": "4",
+      "count": 503
+    },
+    {
+      "_id": "307",
+      "count": 223
+    },
+    {
+      "_id": "304",
+      "count": 44
+    },
+    {
+      "_id": "302",
+      "count": 18
+    },
+    {
+      "_id": "3",
+      "count": 9
+    },
+    {
+      "_id": "2004",
+      "count": 1
+    }
+  ],
+  "totalPages": 283,
+  "totalElements": 2827,
+  "last": false,
+  "numberOfElements": 10,
+  "first": true,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "empty": false
+}

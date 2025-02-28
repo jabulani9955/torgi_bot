@@ -1,0 +1,26 @@
+[
+    {
+        "code": "APPLICATIONS_SUBMISSION",
+        "name": "Прием заявок"
+    },
+    {
+        "code": "PUBLISHED",
+        "name": "Опубликован"
+    },
+    {
+        "code": "DETERMINING_WINNER",
+        "name": "Определение победителя"
+    },
+    {
+        "code": "SUCCEED",
+        "name": "Состоялся"
+    },
+    {
+        "code": "FAILED",
+        "name": "Не состоялся"
+    },
+    {
+        "code": "CANCELED",
+        "name": "Отменен"
+    }
+]

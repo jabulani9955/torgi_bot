@@ -1,0 +1,623 @@
+[
+    {
+        "code": "82",
+        "name": "Ненецкий автономный округ",
+        "published": true,
+        "okato": "11100000000"
+    },
+    {
+        "code": "56",
+        "name": "Новгородская область",
+        "published": true,
+        "okato": "49000000000",
+        "railway_source": "novgorod"
+    },
+    {
+        "code": "7",
+        "name": "Кабардино-Балкарская Республика",
+        "published": true,
+        "okato": "83000000000",
+        "railway_source": "kabardin"
+    },
+    {
+        "code": "39",
+        "name": "Вологодская область",
+        "published": true,
+        "okato": "19000000000",
+        "railway_source": "vologda"
+    },
+    {
+        "code": "37",
+        "name": "Владимирская область",
+        "published": true,
+        "okato": "17000000000",
+        "railway_source": "vladimir"
+    },
+    {
+        "code": "54",
+        "name": "Мурманская область",
+        "published": true,
+        "okato": "47000000000",
+        "railway_source": "murmansk"
+    },
+    {
+        "code": "23",
+        "name": "Алтайский край",
+        "published": true,
+        "okato": "01000000000",
+        "railway_source": "altayskiy"
+    },
+    {
+        "code": "10",
+        "name": "Республика Карелия",
+        "published": true,
+        "okato": "86000000000",
+        "railway_source": "karel"
+    },
+    {
+        "code": "45",
+        "name": "Кемеровская область",
+        "published": true,
+        "okato": "32000000000",
+        "railway_source": "kemerovo"
+    },
+    {
+        "code": "27",
+        "name": "Красноярский край",
+        "published": true,
+        "okato": "04000000000",
+        "railway_source": "krasnoyarsk"
+    },
+    {
+        "code": "62",
+        "name": "Псковская область",
+        "published": true,
+        "okato": "58000000000",
+        "railway_source": "pskov"
+    },
+    {
+        "code": "2",
+        "name": "Республика Алтай",
+        "published": true,
+        "okato": "84000000000",
+        "railway_source": "altayskiy"
+    },
+    {
+        "code": "30",
+        "name": "Ставропольский край",
+        "published": true,
+        "okato": "07000000000",
+        "railway_source": "stavrop"
+    },
+    {
+        "code": "72",
+        "name": "Томская область",
+        "published": true,
+        "okato": "69000000000",
+        "railway_source": "tomsk"
+    },
+    {
+        "code": "19",
+        "name": "Удмуртская Республика",
+        "published": true,
+        "okato": "94000000000",
+        "railway_source": "udmurt"
+    },
+    {
+        "code": "1",
+        "name": "Республика Адыгея",
+        "published": true,
+        "okato": "79000000000",
+        "railway_source": "adygeya"
+    },
+    {
+        "code": "70",
+        "name": "Тамбовская область",
+        "published": true,
+        "okato": "68000000000",
+        "railway_source": "tambov"
+    },
+    {
+        "code": "80",
+        "name": "г. Севастополь",
+        "published": true,
+        "okato": "67000000000"
+    },
+    {
+        "code": "81",
+        "name": "Еврейская автономная область",
+        "published": true,
+        "okato": "99000000000",
+        "railway_source": "evrey"
+    },
+    {
+        "code": "24",
+        "name": "Забайкальский край",
+        "published": true,
+        "okato": "76000000000",
+        "railway_source": "zabaikal"
+    },
+    {
+        "code": "42",
+        "name": "Иркутская область",
+        "published": true,
+        "okato": "25000000000",
+        "railway_source": "irkutsk"
+    },
+    {
+        "code": "59",
+        "name": "Оренбургская область",
+        "published": true,
+        "okato": "53000000000",
+        "railway_source": "orenburg"
+    },
+    {
+        "code": "5",
+        "name": "Республика Дагестан",
+        "published": true,
+        "okato": "82000000000",
+        "railway_source": "dagestan"
+    },
+    {
+        "code": "8",
+        "name": "Республика Калмыкия",
+        "published": true,
+        "okato": "85000000000",
+        "railway_source": "kalmyk"
+    },
+    {
+        "code": "76",
+        "name": "Челябинская область",
+        "published": true,
+        "okato": "75000000000",
+        "railway_source": "chel"
+    },
+    {
+        "code": "38",
+        "name": "Волгоградская область",
+        "published": true,
+        "okato": "18000000000",
+        "railway_source": "volgograd"
+    },
+    {
+        "code": "41",
+        "name": "Ивановская область",
+        "published": true,
+        "okato": "24000000000",
+        "railway_source": "ivanov"
+    },
+    {
+        "code": "43",
+        "name": "Калининградская область",
+        "published": true,
+        "okato": "27000000000",
+        "railway_source": "kalinin"
+    },
+    {
+        "code": "44",
+        "name": "Калужская область",
+        "published": true,
+        "okato": "29000000000",
+        "railway_source": "kaluzh"
+    },
+    {
+        "code": "53",
+        "name": "Московская область",
+        "published": true,
+        "okato": "46000000000",
+        "railway_source": "mosobl"
+    },
+    {
+        "code": "29",
+        "name": "Приморский край",
+        "published": true,
+        "okato": "05000000000",
+        "railway_source": "prim"
+    },
+    {
+        "code": "20",
+        "name": "Республика Хакасия",
+        "published": true,
+        "okato": "95000000000",
+        "railway_source": "khakas"
+    },
+    {
+        "code": "32",
+        "name": "Амурская область",
+        "published": true,
+        "okato": "10000000000",
+        "railway_source": "amur"
+    },
+    {
+        "code": "74",
+        "name": "Тюменская область",
+        "published": true,
+        "okato": "71000000000",
+        "railway_source": "tumen"
+    },
+    {
+        "code": "83",
+        "name": "Ханты-Мансийский автономный округ",
+        "published": true,
+        "okato": "71100000000",
+        "railway_source": "khanty"
+    },
+    {
+        "code": "9",
+        "name": "Карачаево-Черкесская Республика",
+        "published": true,
+        "okato": "91000000000",
+        "railway_source": "karach"
+    },
+    {
+        "code": "13",
+        "name": "Республика Марий Эл",
+        "published": true,
+        "okato": "88000000000",
+        "railway_source": "mariyel"
+    },
+    {
+        "code": "69",
+        "name": "Смоленская область",
+        "published": true,
+        "okato": "66000000000",
+        "railway_source": "smol"
+    },
+    {
+        "code": "35",
+        "name": "Белгородская область",
+        "published": true,
+        "okato": "14000000000",
+        "railway_source": "belgorod"
+    },
+    {
+        "code": "49",
+        "name": "Курская область",
+        "published": true,
+        "okato": "38000000000",
+        "railway_source": "kursk"
+    },
+    {
+        "code": "78",
+        "name": "г. Москва",
+        "published": true,
+        "okato": "45000000000",
+        "railway_source": "mosobl"
+    },
+    {
+        "code": "48",
+        "name": "Курганская область",
+        "published": true,
+        "okato": "37000000000",
+        "railway_source": "kurgan"
+    },
+    {
+        "code": "50",
+        "name": "Ленинградская область",
+        "published": true,
+        "okato": "41000000000",
+        "railway_source": "leningrad"
+    },
+    {
+        "code": "51",
+        "name": "Липецкая область",
+        "published": true,
+        "okato": "42000000000",
+        "railway_source": "lipetsk"
+    },
+    {
+        "code": "57",
+        "name": "Новосибирская область",
+        "published": true,
+        "okato": "50000000000",
+        "railway_source": "novosib"
+    },
+    {
+        "code": "11",
+        "name": "Республика Коми",
+        "published": true,
+        "okato": "87000000000",
+        "railway_source": "komi"
+    },
+    {
+        "code": "12",
+        "name": "Республика Крым",
+        "published": true,
+        "okato": "35000000000",
+        "railway_source": "crimea"
+    },
+    {
+        "code": "18",
+        "name": "Республика Тыва",
+        "published": true,
+        "okato": "93000000000",
+        "railway_source": ""
+    },
+    {
+        "code": "73",
+        "name": "Тульская область",
+        "published": true,
+        "okato": "70000000000",
+        "railway_source": "tul"
+    },
+    {
+        "code": "46",
+        "name": "Кировская область",
+        "published": true,
+        "okato": "33000000000",
+        "railway_source": "kirov"
+    },
+    {
+        "code": "47",
+        "name": "Костромская область",
+        "published": true,
+        "okato": "34000000000",
+        "railway_source": "kostrom"
+    },
+    {
+        "code": "58",
+        "name": "Омская область",
+        "published": true,
+        "okato": "52000000000",
+        "railway_source": "omsk"
+    },
+    {
+        "code": "61",
+        "name": "Пензенская область",
+        "published": true,
+        "okato": "56000000000",
+        "railway_source": "penz"
+    },
+    {
+        "code": "28",
+        "name": "Пермский край",
+        "published": true,
+        "okato": "57000000000",
+        "railway_source": "perm"
+    },
+    {
+        "code": "16",
+        "name": "Республика Северная Осетия-Алания",
+        "published": true,
+        "okato": "90000000000",
+        "railway_source": "osetiya"
+    },
+    {
+        "code": "17",
+        "name": "Республика Татарстан",
+        "published": true,
+        "okato": "92000000000",
+        "railway_source": "tatar"
+    },
+    {
+        "code": "65",
+        "name": "Самарская область",
+        "published": true,
+        "okato": "36000000000",
+        "railway_source": "samar"
+    },
+    {
+        "code": "66",
+        "name": "Саратовская область",
+        "published": true,
+        "okato": "63000000000",
+        "railway_source": "saratov"
+    },
+    {
+        "code": "67",
+        "name": "Сахалинская область",
+        "published": true,
+        "okato": "64000000000",
+        "railway_source": "sakhalin"
+    },
+    {
+        "code": "68",
+        "name": "Свердловская область",
+        "published": true,
+        "okato": "65000000000",
+        "railway_source": "sverdl"
+    },
+    {
+        "code": "84",
+        "name": "Чукотский автономный округ",
+        "published": true,
+        "okato": "77000000000",
+        "railway_source": ""
+    },
+    {
+        "code": "85",
+        "name": "Ямало-Ненецкий автономный округ",
+        "published": true,
+        "okato": "71140000000",
+        "railway_source": "yamal"
+    },
+    {
+        "code": "40",
+        "name": "Воронежская область",
+        "published": true,
+        "okato": "20000000000",
+        "railway_source": "voronezh"
+    },
+    {
+        "code": "34",
+        "name": "Астраханская область",
+        "published": true,
+        "okato": "12000000000",
+        "railway_source": "astrakhan"
+    },
+    {
+        "code": "55",
+        "name": "Нижегородская область",
+        "published": true,
+        "okato": "22000000000",
+        "railway_source": ""
+    },
+    {
+        "code": "60",
+        "name": "Орловская область",
+        "published": true,
+        "okato": "54000000000",
+        "railway_source": "nizhegorod"
+    },
+    {
+        "code": "6",
+        "name": "Республика Ингушетия",
+        "published": true,
+        "okato": "26000000000",
+        "railway_source": "ingush"
+    },
+    {
+        "code": "64",
+        "name": "Рязанская область",
+        "published": true,
+        "okato": "61000000000",
+        "railway_source": "ryazan"
+    },
+    {
+        "code": "21",
+        "name": "Чеченская Республика",
+        "published": true,
+        "okato": "96000000000",
+        "railway_source": "chechen"
+    },
+    {
+        "code": "77",
+        "name": "Ярославская область",
+        "published": true,
+        "okato": "78000000000",
+        "railway_source": "yarosl"
+    },
+    {
+        "code": "79",
+        "name": "г. Санкт-Петербург",
+        "published": true,
+        "okato": "40000000000",
+        "railway_source": "leningrad"
+    },
+    {
+        "code": "3",
+        "name": "Республика Башкортостан",
+        "published": true,
+        "okato": "80000000000",
+        "railway_source": "bashkir"
+    },
+    {
+        "code": "31",
+        "name": "Хабаровский край",
+        "published": true,
+        "okato": "08000000000",
+        "railway_source": "khabar"
+    },
+    {
+        "code": "52",
+        "name": "Магаданская область",
+        "published": true,
+        "okato": "44000000000",
+        "railway_source": ""
+    },
+    {
+        "code": "14",
+        "name": "Республика Мордовия",
+        "published": true,
+        "okato": "89000000000",
+        "railway_source": "mordov"
+    },
+    {
+        "code": "15",
+        "name": "Республика Саха (Якутия)",
+        "published": true,
+        "okato": "98000000000",
+        "railway_source": "yakut"
+    },
+    {
+        "code": "25",
+        "name": "Камчатский край",
+        "published": true,
+        "okato": "30000000000",
+        "railway_source": ""
+    },
+    {
+        "code": "33",
+        "name": "Архангельская область",
+        "published": true,
+        "okato": "11000000000",
+        "railway_source": "arkhan"
+    },
+    {
+        "code": "4",
+        "name": "Республика Бурятия",
+        "published": true,
+        "okato": "81000000000",
+        "railway_source": "buryat"
+    },
+    {
+        "code": "36",
+        "name": "Брянская область",
+        "published": true,
+        "okato": "15000000000",
+        "railway_source": "bryansk"
+    },
+    {
+        "code": "26",
+        "name": "Краснодарский край",
+        "published": true,
+        "okato": "03000000000",
+        "railway_source": "krasnodar"
+    },
+    {
+        "code": "71",
+        "name": "Тверская область",
+        "published": true,
+        "okato": "28000000000",
+        "railway_source": "tver"
+    },
+    {
+        "code": "22",
+        "name": "Чувашская Республика",
+        "published": true,
+        "okato": "97000000000",
+        "railway_source": "chuvash"
+    },
+    {
+        "code": "63",
+        "name": "Ростовская область",
+        "published": true,
+        "okato": "60000000000",
+        "railway_source": "rostov"
+    },
+    {
+        "code": "75",
+        "name": "Ульяновская область",
+        "published": true,
+        "okato": "73000000000",
+        "railway_source": "ulyan"
+    },
+    {
+        "code": "106",
+        "name": "Донецкая Народная Республика",
+        "published": true,
+        "okato": "21000000000",
+        "railway_source": "donetsk"
+    },
+    {
+        "code": "108",
+        "name": "Запорожская область",
+        "published": true,
+        "okato": "23000000000",
+        "railway_source": "zaporozh"
+    },
+    {
+        "code": "105",
+        "name": "Луганская народная Республика",
+        "published": true,
+        "okato": "43000000000",
+        "railway_source": "lugansk"
+    },
+    {
+        "code": "107",
+        "name": "Херсонская область",
+        "published": true,
+        "okato": "74000000000",
+        "railway_source": "kherson"
+    }
+]
