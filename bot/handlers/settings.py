@@ -34,34 +34,6 @@ logger = structlog.get_logger()
 fetch_tasks: Dict[int, asyncio.Task] = {}
 
 
-def get_readable_filename(subjects: list[str], statuses: list[str]) -> str:
-    """Создает читаемое имя файла с русскими названиями субъектов и статусов"""
-    all_subjects = load_subjects()
-    all_statuses = load_statuses()
-    
-    # Получаем русские названия
-    subject_names = []
-    for subject in subjects:
-        for s in all_subjects:
-            if s["code"] == subject:
-                subject_names.append(s["name"].replace(" ", "_"))
-                break
-    
-    status_names = []
-    for status in statuses:
-        for s in all_statuses:
-            if s["code"] == status:
-                status_names.append(s["name"].replace(" ", "_"))
-                break
-    
-    # Формируем имя файла
-    date_str = datetime.now().strftime('%Y%m%d_%H%M%S')
-    subjects_str = "-".join(subject_names) if len(subject_names) <= 2 else f"{len(subject_names)}_субъектов"
-    statuses_str = "-".join(status_names) if len(status_names) <= 2 else f"{len(status_names)}_статусов"
-    
-    return f"Torgi_{subjects_str}_{statuses_str}_{date_str}.xlsx"
-
-
 @router.message(Command("start"))
 async def cmd_start(message: Message, state: FSMContext) -> None:
     """Обработчик команды /start"""
@@ -316,32 +288,47 @@ async def start_data_fetch(callback: CallbackQuery, state: FSMContext) -> None:
             "Создание Excel файла..."
         )
             
-        df = pd.DataFrame(data)
-        filename = get_readable_filename(selected_subjects, selected_statuses)
-        
-        logger.info("Saving data to Excel", filename=filename, rows=len(df))
-        df.to_excel(filename, index=False)
-        
-        # Создаем FSInputFile для корректной отправки файла
-        file = FSInputFile(filename)
-        await callback.message.answer_document(
-            document=file,
-            caption=(
-                f"✅ Данные успешно загружены!\n"
-                f"📊 Количество записей: {len(df)}\n"
-                f"🏢 Выбрано субъектов: {len(selected_subjects)}\n"
-                f"📋 Выбрано статусов: {len(selected_statuses)}"
+        try:
+            # Используем новую функцию обработки данных
+            from bot.utils.data_processing import data_processing
+            filename = data_processing(data, selected_subjects, selected_statuses)
+            
+            if not filename:
+                await status_message.edit_text(
+                    "❌ Ошибка при обработке данных",
+                    reply_markup=get_settings_keyboard()
+                )
+                return
+                
+            # Создаем FSInputFile для корректной отправки файла
+            file = FSInputFile(filename)
+            await callback.message.answer_document(
+                document=file,
+                caption=(
+                    f"✅ Данные успешно загружены!\n"
+                    f"📊 Количество записей: {len(data)}\n"
+                    f"🏢 Выбрано субъектов: {len(selected_subjects)}\n"
+                    f"📋 Выбрано статусов: {len(selected_statuses)}"
+                )
             )
-        )
-        
-        # Удаляем файл после отправки
-        os.remove(filename)
-        logger.info("File removed after sending", filename=filename)
-        
-        await status_message.edit_text(
-            "⚙️ Настройки поиска:",
-            reply_markup=get_settings_keyboard()
-        )
+            
+            # Удаляем файл после отправки
+            os.remove(filename)
+            logger.info("File removed after sending", filename=filename)
+            
+            await status_message.edit_text(
+                "⚙️ Настройки поиска:",
+                reply_markup=get_settings_keyboard()
+            )
+        except Exception as e:
+            logger.error(
+                "Error during data processing",
+                error=str(e)
+            )
+            await status_message.edit_text(
+                "❌ Произошла ошибка при обработке данных. Попробуйте позже.",
+                reply_markup=get_settings_keyboard()
+            )
         
     except Exception as e:
         logger.error(

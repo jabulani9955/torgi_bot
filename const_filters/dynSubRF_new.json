@@ -1,0 +1,2759 @@
+[
+    {
+      "code": "resourceLocation",
+      "name": "Субъект местонахождения имущества",
+      "published": true,
+      "format": "select",
+      "mappingTable": [
+        {
+          "code": "1",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Республика Адыгея"
+          },
+          "dynAttrValue": {
+            "code": "01",
+            "name": "Республика Адыгея (Адыгея)"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "85",
+          "baseAttrValue": {
+            "code": "89",
+            "name": "Ямало-Ненецкий автономный округ"
+          },
+          "dynAttrValue": {
+            "code": "085",
+            "name": "Ямало-Ненецкий автономный округ"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Республика Алтай"
+          },
+          "dynAttrValue": {
+            "code": "02",
+            "name": "Республика Алтай"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "84",
+          "baseAttrValue": {
+            "code": "87",
+            "name": "Чукотский автономный округ"
+          },
+          "dynAttrValue": {
+            "code": "084",
+            "name": "Чукотский автономный округ"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Республика Башкортостан"
+          },
+          "dynAttrValue": {
+            "code": "03",
+            "name": "Республика Башкортостан"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "83",
+          "baseAttrValue": {
+            "code": "86",
+            "name": "Ханты-Мансийский автономный округ"
+          },
+          "dynAttrValue": {
+            "code": "083",
+            "name": "Ханты-Мансийский автономный округ - Югра"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Республика Бурятия"
+          },
+          "dynAttrValue": {
+            "code": "04",
+            "name": "Республика Бурятия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Республика Дагестан"
+          },
+          "dynAttrValue": {
+            "code": "05",
+            "name": "Республика Дагестан"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "baseAttrValue": {
+            "code": "6",
+            "name": "Республика Ингушетия"
+          },
+          "dynAttrValue": {
+            "code": "06",
+            "name": "Республика Ингушетия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "baseAttrValue": {
+            "code": "7",
+            "name": "Кабардино-Балкарская Республика"
+          },
+          "dynAttrValue": {
+            "code": "07",
+            "name": "Кабардино-Балкарская Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "baseAttrValue": {
+            "code": "8",
+            "name": "Республика Калмыкия"
+          },
+          "dynAttrValue": {
+            "code": "08",
+            "name": "Республика Калмыкия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "baseAttrValue": {
+            "code": "9",
+            "name": "Карачаево-Черкесская Республика"
+          },
+          "dynAttrValue": {
+            "code": "09",
+            "name": "Карачаево-Черкесская Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "82",
+          "baseAttrValue": {
+            "code": "83",
+            "name": "Ненецкий автономный округ"
+          },
+          "dynAttrValue": {
+            "code": "082",
+            "name": "Ненецкий автономный округ"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "baseAttrValue": {
+            "code": "10",
+            "name": "Республика Карелия"
+          },
+          "dynAttrValue": {
+            "code": "010",
+            "name": "Республика Карелия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "81",
+          "baseAttrValue": {
+            "code": "79",
+            "name": "Еврейская автономная область"
+          },
+          "dynAttrValue": {
+            "code": "081",
+            "name": "Еврейская автономная область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "baseAttrValue": {
+            "code": "11",
+            "name": "Республика Коми"
+          },
+          "dynAttrValue": {
+            "code": "011",
+            "name": "Республика Коми"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "baseAttrValue": {
+            "code": "91",
+            "name": "Республика Крым"
+          },
+          "dynAttrValue": {
+            "code": "012",
+            "name": "Республика Крым"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "80",
+          "baseAttrValue": {
+            "code": "92",
+            "name": "г. Севастополь"
+          },
+          "dynAttrValue": {
+            "code": "080",
+            "name": "Город федерального значения Севастополь"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "13",
+          "baseAttrValue": {
+            "code": "12",
+            "name": "Республика Марий Эл"
+          },
+          "dynAttrValue": {
+            "code": "013",
+            "name": "Республика Марий Эл"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "14",
+          "baseAttrValue": {
+            "code": "13",
+            "name": "Республика Мордовия"
+          },
+          "dynAttrValue": {
+            "code": "014",
+            "name": "Республика Мордовия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "79",
+          "baseAttrValue": {
+            "code": "78",
+            "name": "г. Санкт-Петербург"
+          },
+          "dynAttrValue": {
+            "code": "079",
+            "name": "Город федерального значения Санкт-Петербург"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "baseAttrValue": {
+            "code": "14",
+            "name": "Республика Саха (Якутия)"
+          },
+          "dynAttrValue": {
+            "code": "015",
+            "name": "Республика Саха (Якутия)"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "16",
+          "baseAttrValue": {
+            "code": "15",
+            "name": "Республика Северная Осетия-Алания"
+          },
+          "dynAttrValue": {
+            "code": "01",
+            "name": "Республика Адыгея (Адыгея)"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "17",
+          "baseAttrValue": {
+            "code": "16",
+            "name": "Республика Татарстан"
+          },
+          "dynAttrValue": {
+            "code": "017",
+            "name": "Республика Татарстан (Татарстан)"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "78",
+          "baseAttrValue": {
+            "code": "77",
+            "name": "г. Москва"
+          },
+          "dynAttrValue": {
+            "code": "078",
+            "name": "Город федерального значения Москва"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "baseAttrValue": {
+            "code": "17",
+            "name": "Республика Тыва"
+          },
+          "dynAttrValue": {
+            "code": "018",
+            "name": "Республика Тыва"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "19",
+          "baseAttrValue": {
+            "code": "18",
+            "name": "Удмуртская Республика"
+          },
+          "dynAttrValue": {
+            "code": "019",
+            "name": "Удмуртская Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "77",
+          "baseAttrValue": {
+            "code": "76",
+            "name": "Ярославская область"
+          },
+          "dynAttrValue": {
+            "code": "077",
+            "name": "Ярославская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "20",
+          "baseAttrValue": {
+            "code": "19",
+            "name": "Республика Хакасия"
+          },
+          "dynAttrValue": {
+            "code": "020",
+            "name": "Республика Хакасия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "76",
+          "baseAttrValue": {
+            "code": "74",
+            "name": "Челябинская область"
+          },
+          "dynAttrValue": {
+            "code": "076",
+            "name": "Челябинская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "21",
+          "baseAttrValue": {
+            "code": "20",
+            "name": "Чеченская Республика"
+          },
+          "dynAttrValue": {
+            "code": "021",
+            "name": "Чеченская Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "75",
+          "baseAttrValue": {
+            "code": "73",
+            "name": "Ульяновская область"
+          },
+          "dynAttrValue": {
+            "code": "075",
+            "name": "Ульяновская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "22",
+          "baseAttrValue": {
+            "code": "21",
+            "name": "Чувашская Республика"
+          },
+          "dynAttrValue": {
+            "code": "022",
+            "name": "Чувашская Республика - Чувашия"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "74",
+          "baseAttrValue": {
+            "code": "72",
+            "name": "Тюменская область"
+          },
+          "dynAttrValue": {
+            "code": "074",
+            "name": "Тюменская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "23",
+          "baseAttrValue": {
+            "code": "22",
+            "name": "Алтайский край"
+          },
+          "dynAttrValue": {
+            "code": "023",
+            "name": "Алтайский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "73",
+          "baseAttrValue": {
+            "code": "71",
+            "name": "Тульская область"
+          },
+          "dynAttrValue": {
+            "code": "073",
+            "name": "Тульская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "24",
+          "baseAttrValue": {
+            "code": "75",
+            "name": "Забайкальский край"
+          },
+          "dynAttrValue": {
+            "code": "024",
+            "name": "Забайкальский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "72",
+          "baseAttrValue": {
+            "code": "70",
+            "name": "Томская область"
+          },
+          "dynAttrValue": {
+            "code": "072",
+            "name": "Томская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "25",
+          "baseAttrValue": {
+            "code": "41",
+            "name": "Камчатский край"
+          },
+          "dynAttrValue": {
+            "code": "025",
+            "name": "Камчатский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "26",
+          "baseAttrValue": {
+            "code": "23",
+            "name": "Краснодарский край"
+          },
+          "dynAttrValue": {
+            "code": "026",
+            "name": "Краснодарский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "71",
+          "baseAttrValue": {
+            "code": "69",
+            "name": "Тверская область"
+          },
+          "dynAttrValue": {
+            "code": "071",
+            "name": "Тверская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "27",
+          "baseAttrValue": {
+            "code": "24",
+            "name": "Красноярский край"
+          },
+          "dynAttrValue": {
+            "code": "027",
+            "name": "Красноярский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "70",
+          "baseAttrValue": {
+            "code": "68",
+            "name": "Тамбовская область"
+          },
+          "dynAttrValue": {
+            "code": "070",
+            "name": "Тамбовская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "28",
+          "baseAttrValue": {
+            "code": "59",
+            "name": "Пермский край"
+          },
+          "dynAttrValue": {
+            "code": "028",
+            "name": "Пермский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "29",
+          "baseAttrValue": {
+            "code": "25",
+            "name": "Приморский край"
+          },
+          "dynAttrValue": {
+            "code": "029",
+            "name": "Приморский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "69",
+          "baseAttrValue": {
+            "code": "67",
+            "name": "Смоленская область"
+          },
+          "dynAttrValue": {
+            "code": "069",
+            "name": "Смоленская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "68",
+          "baseAttrValue": {
+            "code": "66",
+            "name": "Свердловская область"
+          },
+          "dynAttrValue": {
+            "code": "068",
+            "name": "Свердловская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "67",
+          "baseAttrValue": {
+            "code": "65",
+            "name": "Сахалинская область"
+          },
+          "dynAttrValue": {
+            "code": "067",
+            "name": "Сахалинская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "30",
+          "baseAttrValue": {
+            "code": "26",
+            "name": "Ставропольский край"
+          },
+          "dynAttrValue": {
+            "code": "030",
+            "name": "Ставропольский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "66",
+          "baseAttrValue": {
+            "code": "64",
+            "name": "Саратовская область"
+          },
+          "dynAttrValue": {
+            "code": "066",
+            "name": "Саратовская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "65",
+          "baseAttrValue": {
+            "code": "63",
+            "name": "Самарская область"
+          },
+          "dynAttrValue": {
+            "code": "065",
+            "name": "Самарская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "64",
+          "baseAttrValue": {
+            "code": "62",
+            "name": "Рязанская область"
+          },
+          "dynAttrValue": {
+            "code": "064",
+            "name": "Рязанская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "63",
+          "baseAttrValue": {
+            "code": "61",
+            "name": "Ростовская область"
+          },
+          "dynAttrValue": {
+            "code": "063",
+            "name": "Ростовская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "62",
+          "baseAttrValue": {
+            "code": "60",
+            "name": "Псковская область"
+          },
+          "dynAttrValue": {
+            "code": "062",
+            "name": "Псковская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "61",
+          "baseAttrValue": {
+            "code": "58",
+            "name": "Пензенская область"
+          },
+          "dynAttrValue": {
+            "code": "061",
+            "name": "Пензенская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "60",
+          "baseAttrValue": {
+            "code": "57",
+            "name": "Орловская область"
+          },
+          "dynAttrValue": {
+            "code": "060",
+            "name": "Орловская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "59",
+          "baseAttrValue": {
+            "code": "56",
+            "name": "Оренбургская область"
+          },
+          "dynAttrValue": {
+            "code": "059",
+            "name": "Оренбургская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "58",
+          "baseAttrValue": {
+            "code": "55",
+            "name": "Омская область"
+          },
+          "dynAttrValue": {
+            "code": "058",
+            "name": "Омская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "57",
+          "baseAttrValue": {
+            "code": "54",
+            "name": "Новосибирская область"
+          },
+          "dynAttrValue": {
+            "code": "057",
+            "name": "Новосибирская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "56",
+          "baseAttrValue": {
+            "code": "53",
+            "name": "Новгородская область"
+          },
+          "dynAttrValue": {
+            "code": "056",
+            "name": "Новгородская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "55",
+          "baseAttrValue": {
+            "code": "52",
+            "name": "Нижегородская область"
+          },
+          "dynAttrValue": {
+            "code": "055",
+            "name": "Нижегородская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "54",
+          "baseAttrValue": {
+            "code": "51",
+            "name": "Мурманская область"
+          },
+          "dynAttrValue": {
+            "code": "054",
+            "name": "Мурманская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "53",
+          "baseAttrValue": {
+            "code": "50",
+            "name": "Московская область"
+          },
+          "dynAttrValue": {
+            "code": "053",
+            "name": "Московская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "52",
+          "baseAttrValue": {
+            "code": "49",
+            "name": "Магаданская область"
+          },
+          "dynAttrValue": {
+            "code": "052",
+            "name": "Магаданская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "51",
+          "baseAttrValue": {
+            "code": "48",
+            "name": "Липецкая область"
+          },
+          "dynAttrValue": {
+            "code": "051",
+            "name": "Липецкая область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "50",
+          "baseAttrValue": {
+            "code": "47",
+            "name": "Ленинградская область"
+          },
+          "dynAttrValue": {
+            "code": "050",
+            "name": "Ленинградская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "49",
+          "baseAttrValue": {
+            "code": "46",
+            "name": "Курская область"
+          },
+          "dynAttrValue": {
+            "code": "049",
+            "name": "Курская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "48",
+          "baseAttrValue": {
+            "code": "45",
+            "name": "Курганская область"
+          },
+          "dynAttrValue": {
+            "code": "048",
+            "name": "Курганская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "47",
+          "baseAttrValue": {
+            "code": "44",
+            "name": "Костромская область"
+          },
+          "dynAttrValue": {
+            "code": "047",
+            "name": "Костромская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "46",
+          "baseAttrValue": {
+            "code": "43",
+            "name": "Кировская область"
+          },
+          "dynAttrValue": {
+            "code": "046",
+            "name": "Кировская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "45",
+          "baseAttrValue": {
+            "code": "42",
+            "name": "Кемеровская область"
+          },
+          "dynAttrValue": {
+            "code": "045",
+            "name": "Кемеровская область - Кузбасс"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "44",
+          "baseAttrValue": {
+            "code": "40",
+            "name": "Калужская область"
+          },
+          "dynAttrValue": {
+            "code": "044",
+            "name": "Калужская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "43",
+          "baseAttrValue": {
+            "code": "39",
+            "name": "Калининградская область"
+          },
+          "dynAttrValue": {
+            "code": "043",
+            "name": "Калининградская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "42",
+          "baseAttrValue": {
+            "code": "38",
+            "name": "Иркутская область"
+          },
+          "dynAttrValue": {
+            "code": "042",
+            "name": "Иркутская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "41",
+          "baseAttrValue": {
+            "code": "37",
+            "name": "Ивановская область"
+          },
+          "dynAttrValue": {
+            "code": "041",
+            "name": "Ивановская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "40",
+          "baseAttrValue": {
+            "code": "36",
+            "name": "Воронежская область"
+          },
+          "dynAttrValue": {
+            "code": "040",
+            "name": "Воронежская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "39",
+          "baseAttrValue": {
+            "code": "35",
+            "name": "Вологодская область"
+          },
+          "dynAttrValue": {
+            "code": "039",
+            "name": "Вологодская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "38",
+          "baseAttrValue": {
+            "code": "34",
+            "name": "Волгоградская область"
+          },
+          "dynAttrValue": {
+            "code": "038",
+            "name": "Волгоградская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "37",
+          "baseAttrValue": {
+            "code": "33",
+            "name": "Владимирская область"
+          },
+          "dynAttrValue": {
+            "code": "037",
+            "name": "Владимирская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "36",
+          "baseAttrValue": {
+            "code": "32",
+            "name": "Брянская область"
+          },
+          "dynAttrValue": {
+            "code": "036",
+            "name": "Брянская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "35",
+          "baseAttrValue": {
+            "code": "31",
+            "name": "Белгородская область"
+          },
+          "dynAttrValue": {
+            "code": "035",
+            "name": "Белгородская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "34",
+          "baseAttrValue": {
+            "code": "30",
+            "name": "Астраханская область"
+          },
+          "dynAttrValue": {
+            "code": "034",
+            "name": "Астраханская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "33",
+          "baseAttrValue": {
+            "code": "29",
+            "name": "Архангельская область"
+          },
+          "dynAttrValue": {
+            "code": "033",
+            "name": "Архангельская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "32",
+          "baseAttrValue": {
+            "code": "28",
+            "name": "Амурская область"
+          },
+          "dynAttrValue": {
+            "code": "032",
+            "name": "Амурская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "31",
+          "baseAttrValue": {
+            "code": "27",
+            "name": "Хабаровский край"
+          },
+          "dynAttrValue": {
+            "code": "031",
+            "name": "Хабаровский край"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "107",
+          "baseAttrValue": {
+            "code": "95",
+            "name": "Херсонская область"
+          },
+          "dynAttrValue": {
+            "code": "0108",
+            "name": "Запорожская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "108",
+          "baseAttrValue": {
+            "code": "90",
+            "name": "Запорожская область"
+          },
+          "dynAttrValue": {
+            "code": "0106",
+            "name": "Донецкая народная Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "105",
+          "baseAttrValue": {
+            "code": "94",
+            "name": "Луганская народная Республика"
+          },
+          "dynAttrValue": {
+            "code": "0105",
+            "name": "Луганская народная Республика"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        },
+        {
+          "code": "106",
+          "baseAttrValue": {
+            "code": "93",
+            "name": "Донецкая Народная Республика"
+          },
+          "dynAttrValue": {
+            "code": "0107",
+            "name": "Херсонская область"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceLocation_EA(N)",
+              "name": "Местонахождение участка недр"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MSP",
+      "name": "Торги среди МСП",
+      "published": true,
+      "format": "checker",
+      "mappingTable": [
+        {
+          "code": "false",
+          "baseAttrValue": {
+            "code": "false",
+            "name": "false"
+          },
+          "dynAttrValue": {
+            "code": "false",
+            "name": "false"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_forSmallBusiness",
+              "name": "Участниками аукциона  могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "EK67_forSmallBusiness",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_PA(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_BC(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(147)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", или организации, образующие инфраструктуру поддержки субъектов малого и среднего предпринимательства, имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_EK(147)",
+              "name": "Участниками конкурса могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", или организации, образующие инфраструктуру поддержки субъектов малого и среднего предпринимательства, имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_BK(67)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_BA(67)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(LK)",
+              "name": "Для субъектов малого и среднего предпринимательства"
+            },
+            {
+              "code": "DA_forSmallBusiness_A(LK)",
+              "name": "Для субъектов малого и среднего предпринимательства"
+            }
+          ]
+        },
+        {
+          "code": "true",
+          "baseAttrValue": {
+            "code": "true",
+            "name": "true"
+          },
+          "dynAttrValue": {
+            "code": "true",
+            "name": "true"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_forSmallBusiness",
+              "name": "Участниками аукциона  могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "EK67_forSmallBusiness",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_PA(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_BC(ZK)",
+              "name": "Только для МСП"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(147)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", или организации, образующие инфраструктуру поддержки субъектов малого и среднего предпринимательства, имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_EK(147)",
+              "name": "Участниками конкурса могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", или организации, образующие инфраструктуру поддержки субъектов малого и среднего предпринимательства, имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_A(LK)",
+              "name": "Для субъектов малого и среднего предпринимательства"
+            },
+            {
+              "code": "DA_forSmallBusiness_EA(LK)",
+              "name": "Для субъектов малого и среднего предпринимательства"
+            },
+            {
+              "code": "DA_forSmallBusiness_BA(67)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            },
+            {
+              "code": "DA_forSmallBusiness_BK(67)",
+              "name": "Участниками аукциона могут являться только субъекты малого и среднего предпринимательства, физические лица, применяющие специальный налоговый режим \"Налог на профессиональный доход\", имеющие право на поддержку органов государственной власти и органов местного самоуправления"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FGUP",
+      "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)",
+      "published": true,
+      "format": "checker",
+      "mappingTable": [
+        {
+          "code": "trueFGUP",
+          "baseAttrValue": {
+            "code": "true",
+            "name": "true"
+          },
+          "dynAttrValue": {
+            "code": "true",
+            "name": "true"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_fgup_EA(67)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            },
+            {
+              "code": "DA_fgup_BA(67)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            },
+            {
+              "code": "DA_fgup_EA(147)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            }
+          ]
+        },
+        {
+          "code": "falseFGUP",
+          "baseAttrValue": {
+            "code": "false",
+            "name": "false"
+          },
+          "dynAttrValue": {
+            "code": "false",
+            "name": "false"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_fgup_EA(67)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            },
+            {
+              "code": "DA_fgup_BA(67)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            },
+            {
+              "code": "DA_fgup_EA(147)",
+              "name": "Реализация (отчуждение) имущества ФГУП (ГУП, МУП, государственного, муниципального учреждения)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "typeContract",
+      "name": "Вид договора",
+      "published": true,
+      "format": "select",
+      "mappingTable": [
+        {
+          "code": "109",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynAttrValue": {
+            "code": "purchaseSaleAgreement",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "111",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynAttrValue": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            },
+            {
+              "code": "EK67_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "115",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(67)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "123",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "valueAttribute": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(67)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "127",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "valueAttribute": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(67)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "131",
+          "baseAttrValue": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "valueAttribute": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(67)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "132",
+          "baseAttrValue": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "dynAttrValue": {
+            "code": "leaseAgreementNTO",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            },
+            {
+              "code": "EK67_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "128",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynAttrValue": {
+            "code": "unspecifiedAgreement",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            },
+            {
+              "code": "EK67_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "124",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynAttrValue": {
+            "code": "propertyTrustAgreement",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            },
+            {
+              "code": "EK67_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "116",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynAttrValue": {
+            "code": "freeUseAgreement",
+            "name": "Договор безвозмездного использования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "EK67_contractType",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "112",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(67)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "110",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "valueAttribute": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BA(67)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "136",
+          "baseAttrValue": {
+            "code": "23",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "договор_аренды_земельного_участка_Select",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "139",
+          "baseAttrValue": {
+            "code": "31",
+            "name": "Договор купли-продажи земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "договор_купли_продажи_земельного_участка_Select",
+            "name": "Договор купли-продажи земельного участка"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "143",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "144",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "valueAttribute": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "145",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "valueAttribute": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "146",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "valueAttribute": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "147",
+          "baseAttrValue": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "valueAttribute": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "148",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "149",
+          "baseAttrValue": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "valueAttribute": {
+            "code": "6",
+            "name": "Договор аренды НТО и некапитальных объектов"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "150",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "151",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "valueAttribute": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "152",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "valueAttribute": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "153",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_1_EK(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "154",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(147)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "162",
+          "baseAttrValue": {
+            "code": "29",
+            "name": "Договор купли-продажи лесных насаждений"
+          },
+          "dynAttrValue": {
+            "code": "buyingForestPlantations",
+            "name": "На право заключения договора купли-продажи лесных насаждений"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_typeSubject_A(LK)",
+              "name": "Вид предмета торгов"
+            },
+            {
+              "code": "DA_typeSubject_EA(LK)",
+              "name": "Вид предмета торгов"
+            }
+          ]
+        },
+        {
+          "code": "163",
+          "baseAttrValue": {
+            "code": "30",
+            "name": "Договор аренды лесного участка, находящегося в государственной или муниципальной собственности"
+          },
+          "dynAttrValue": {
+            "code": "forestPlotLease",
+            "name": "На право заключения договора аренды лесного участка, находящегося в государственной или муниципальной собственности"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_typeSubject_EA(LK)",
+              "name": "Вид предмета торгов"
+            },
+            {
+              "code": "DA_typeSubject_A(LK)",
+              "name": "Вид предмета торгов"
+            }
+          ]
+        },
+        {
+          "code": "164",
+          "baseAttrValue": {
+            "code": "23",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BC(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "166",
+          "baseAttrValue": {
+            "code": "30",
+            "name": "Договор аренды лесного участка, находящегося в государственной или муниципальной собственности"
+          },
+          "dynAttrValue": {
+            "code": "2959",
+            "name": "Ежегодный платеж"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_priceItem_K(LK)",
+              "name": "Предмет торга"
+            }
+          ]
+        },
+        {
+          "code": "167",
+          "baseAttrValue": {
+            "code": "30",
+            "name": "Договор аренды лесного участка, находящегося в государственной или муниципальной собственности"
+          },
+          "dynAttrValue": {
+            "code": "2958",
+            "name": "Ежемесячный платеж"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_priceItem_K(LK)",
+              "name": "Предмет торга"
+            }
+          ]
+        },
+        {
+          "code": "168",
+          "baseAttrValue": {
+            "code": "23",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "договор_аренды_земельного_участка_Select",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BC(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "169",
+          "baseAttrValue": {
+            "code": "31",
+            "name": "Договор купли-продажи земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "purchaseSaleAgreement",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_PA(ZK)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_IPS(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "170",
+          "baseAttrValue": {
+            "code": "23",
+            "name": "Договор аренды земельного участка"
+          },
+          "dynAttrValue": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_IPS(ZK)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_PA(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "171",
+          "baseAttrValue": {
+            "code": "33",
+            "name": "Договор безвозмездного пользования земельным участком"
+          },
+          "dynAttrValue": {
+            "code": "freeUseAgreement",
+            "name": "Договор безвозмездного использования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(ZK)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_IPS(ZK)",
+              "name": "Вид договора"
+            },
+            {
+              "code": "DA_contractType_PA(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "165",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynAttrValue": {
+            "code": "Sale",
+            "name": "Продажа"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BA(229)",
+              "name": "Вид предмета торгов по 229-ФЗ"
+            },
+            {
+              "code": "DA_contractType_EA(229)",
+              "name": "Вид предмета торгов по 229-ФЗ"
+            }
+          ]
+        },
+        {
+          "code": "172",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynAttrValue": {
+            "code": "leaseAgreement",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(APGU)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "174",
+          "baseAttrValue": {
+            "code": "44",
+            "name": "Не установлен"
+          },
+          "dynAttrValue": {
+            "code": "notEstablishedAgreement",
+            "name": "Не установлен "
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_IPS(ZK)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "175",
+          "baseAttrValue": {
+            "code": "18",
+            "name": "Договор о закреплении долей квот добычи (вылова) водных биологических ресурсов"
+          },
+          "valueAttribute": {
+            "code": "18",
+            "name": "Договор о закреплении долей квот добычи (вылова) водных биологических ресурсов"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(Quotas_RLU)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "176",
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(Quotas_RLU)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "177",
+          "baseAttrValue": {
+            "code": "19",
+            "name": "Договор пользования водными биологическими ресурсами"
+          },
+          "valueAttribute": {
+            "code": "19",
+            "name": "Договор пользования водными биологическими ресурсами"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(Quotas_RLU)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "185",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "valueAttribute": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "184",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "183",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "182",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractTypeEK(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "181",
+          "baseAttrValue": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "valueAttribute": {
+            "code": "5",
+            "name": "Иной договор"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "180",
+          "baseAttrValue": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "valueAttribute": {
+            "code": "4",
+            "name": "Договор доверительного управления имуществом"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "179",
+          "baseAttrValue": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "valueAttribute": {
+            "code": "3",
+            "name": "Договор безвозмездного пользования"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "178",
+          "baseAttrValue": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "valueAttribute": {
+            "code": "2",
+            "name": "Договор аренды"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_EA(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "186",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "valueAttribute": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BA(135)",
+              "name": "Вид договора"
+            }
+          ]
+        },
+        {
+          "code": "187",
+          "baseAttrValue": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "valueAttribute": {
+            "code": "1",
+            "name": "Договор купли-продажи"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "DA_contractType_BK(135_161)",
+              "name": "Вид договора"
+            }
+          ]
+        }
+      ],
+      "displayConditions": [
+        {
+          "typeBidd": {
+            "code": "67FAS_147FAS",
+            "name": "Аренда, безвозмездное пользование, доверительное управление имуществом, иные договоры, предусматривающие переход прав в отношении государственного или муниципального имущества, продажа имущества ФГУП"
+          }
+        }
+      ]
+    },
+    {
+      "code": "resourceTypeUse",
+      "name": "Вид пользования недрами",
+      "published": true,
+      "format": "select",
+      "mappingTable": [
+        {
+          "code": "155",
+          "dynAttrValue": {
+            "code": "geostudyminerals",
+            "name": "Геологическое изучение, разведка и добыча полезных ископаемых"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "156",
+          "dynAttrValue": {
+            "code": "geostudygroundwater",
+            "name": "Геологическое изучение, разведка и добыча подземных вод"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "157",
+          "dynAttrValue": {
+            "code": "geostudyall",
+            "name": "Геологическое изучение, разведка и добыча полезных ископаемых и подземных вод"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "158",
+          "dynAttrValue": {
+            "code": "productminerals",
+            "name": "Разведка и добыча полезных ископаемых"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "159",
+          "dynAttrValue": {
+            "code": "productgroundwater",
+            "name": "Разведка и добыча подземных вод"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "160",
+          "dynAttrValue": {
+            "code": "productall",
+            "name": "Разведка и добыча полезных ископаемых и подземных вод"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        },
+        {
+          "code": "161",
+          "dynAttrValue": {
+            "code": "developtechnologies",
+            "name": "Разработка технологий геологического изучения, разведки и добычи трудноизвлекаемых полезных ископаемых"
+          },
+          "dynamicAttribute": [
+            {
+              "code": "resourceTypeUse_EA(N)",
+              "name": "Вид пользования недрами"
+            }
+          ]
+        }
+      ],
+      "displayConditions": [
+        {
+          "typeBidd": {
+            "code": "2499PP",
+            "name": "Продажа права пользования участком недр"
+          },
+          "formBidd": [
+            {
+              "code": "EA",
+              "name": "Электронный аукцион"
+            }
+          ]
+        }
+      ]
+    }
+  ]
