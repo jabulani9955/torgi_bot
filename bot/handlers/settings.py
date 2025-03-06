@@ -501,15 +501,17 @@ async def start_data_fetch(callback: CallbackQuery, state: FSMContext) -> None:
         )
         
         # Создаем и сохраняем задачу
-        fetch_tasks[user_id] = asyncio.create_task(fetch_data(
-            selected_subjects,
-            selected_statuses,
-            date_from=date_from,
-            date_to=date_to,
-            progress_callback=lambda current, total: update_progress(
-                status_message, current, total, user_id
+        fetch_tasks[user_id] = asyncio.create_task(
+            fetch_data(
+                selected_subjects,
+                selected_statuses,
+                date_from=date_from,
+                date_to=date_to,
+                progress_callback=lambda current, total: update_progress(
+                    status_message, current, total, user_id
+                )
             )
-        ))
+        )
         
         # Ждем завершения задачи
         try:
@@ -572,7 +574,10 @@ async def start_data_fetch(callback: CallbackQuery, state: FSMContext) -> None:
                 "⚙️ Настройки поиска:",
                 reply_markup=get_settings_keyboard()
             )
-            
+
+            os.remove(filename)
+            logger.info("Excel файл успешно удалён.", user_id=user_id)
+
         except Exception as e:
             logger.error(
                 "Error during data processing",

@@ -51,16 +51,20 @@ def get_settings_keyboard() -> InlineKeyboardMarkup:
     )
     
     # Третья строка: Начать поиск
-    builder.row(InlineKeyboardButton(
-        text="🔍 Начать поиск",
-        callback_data="start_fetch"
-    ))
+    builder.row(
+        InlineKeyboardButton(
+            text="🔍 Начать поиск",
+            callback_data="start_fetch"
+        )
+    )
     
     # Четвертая строка: Назад
-    builder.row(InlineKeyboardButton(
-        text="↩️ Назад",
-        callback_data="back"
-    ))
+    builder.row(
+        InlineKeyboardButton(
+            text="↩️ Назад",
+            callback_data="back"
+        )
+    )
     
     return builder.as_markup()
 

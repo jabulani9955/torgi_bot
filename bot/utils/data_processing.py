@@ -17,7 +17,9 @@ from bot.utils.functions import (
     load_constants,
     convert_time,
     fill_rent_period,
-    get_additional_data
+    get_additional_data,
+    get_coords_batch,
+    get_additional_data_batch
 )
 
 
@@ -157,7 +159,7 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     logger.info("Начинаю обработку данных...")
     
     # Загружаем константы
-    subjects_data, _ = load_constants()
+    subjects_data, _, statuses_data = load_constants()
     
     # Создаем DataFrame из полученных данных
     df = pd.DataFrame(data)
@@ -166,6 +168,9 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
         logger.error("Нет данных для обработки")
         return None
     
+    # Обрабатываем данные
+    logger.info("Обрабатываю данные...")
+    
     # Добавляем информацию о субъекте
     if 'subjectRFCode' in df.columns:
         df['subject'] = df['subjectRFCode'].apply(
@@ -173,36 +178,71 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
         )
     else:
         logger.error("В данных отсутствует поле subjectRFCode")
-        return None
     
-    # Обрабатываем данные
-    logger.info("Обрабатываю данные...")
-    
+    if 'lotStatus' in df.columns:
+        df['lotStatus'] = df['lotStatus'].apply(
+            lambda x: next((status['name'] for status in statuses_data if status['code'] == str(x)), "Неизвестный статус")
+        )
+    else:
+        logger.error("В данных отсутствует поле lotStatus")
+
+    if 'attributes' in df.columns:
+        df['rent_period'] = df['attributes'].apply(fill_rent_period)
+
+    if 'characteristics' in df.columns:
+        df['area'] = df['characteristics'].apply(fill_area)
+
+    df['cadastral_number'] = df.apply(lambda x: fill_cadastr_num(x['characteristics'], x['lotDescription']), axis=1)
+        
     # Обрабатываем изображения
     if 'lotImages' in df.columns:
         try:
-            logger.info("Обрабатываю изображения...")
-            df['lotImages'] = df['lotImages'].apply(
-                lambda x: process_images(x)
-            )
+            df['lotImages'] = df['lotImages'].apply(lambda x: '\n'.join([f'https://torgi.gov.ru/new/file-store/v1/{img}?disposition=inline' for img in x]))
         except Exception as e:
             logger.error(f"Ошибка при обработке изображений: {e}")
             df['lotImages'] = [[]]  # Устанавливаем пустой список, чтобы избежать ошибок
     
+    df['link'] = df['id'].apply(lambda x: f'https://torgi.gov.ru/new/public/lots/lot/{x}') 
+
     # Рассчитываем координаты, если это требуется
     if config and config.processing.calculate_coordinates and 'cadastral_number' in df.columns:
         logger.info("Рассчитываю координаты по кадастровым номерам...")
-        df['coordinates'] = df['cadastral_number'].apply(
-            lambda x: get_coords_from_cadastral_number(x) if pd.notnull(x) and x else np.nan
-        )
+        
+        # Получаем уникальные непустые кадастровые номера
+        unique_cadastral_numbers = df['cadastral_number'].dropna().unique().tolist()
+        
+        if unique_cadastral_numbers:
+            # Ограничиваем количество запросов в зависимости от размера данных
+            workers = min(5, max(2, len(unique_cadastral_numbers) // 20))
+            logger.info(f"Будет использовано {workers} параллельных потоков для запросов")
+            
+            # Получаем координаты параллельно с контролем скорости запросов
+            coords_dict = get_coords_batch(
+                unique_cadastral_numbers, 
+                max_workers=workers,
+                retry_interval=3,
+                rate_limit_delay=1.0  # Увеличиваем задержку между запросами
+            )
+            
+            # Применяем результаты к DataFrame через map
+            coordinates_map = {cad_num: coords for cad_num, coords in coords_dict.items()}
+            df['coordinates'] = df['cadastral_number'].map(
+                lambda x: coordinates_map.get(x, np.nan) if pd.notnull(x) and x else np.nan
+            )
+        else:
+            df['coordinates'] = np.nan
+            
         # Разделяем координаты и адрес
         df['coordinates_xy'] = df['coordinates'].apply(
-            lambda x: x[0] if isinstance(x, tuple) and len(x) > 0 and x[0] is not np.nan else np.nan
+            lambda x: x[0][::-1] if isinstance(x, tuple) and len(x) > 0 and x[0] is not np.nan else np.nan
         )
-        df['coordinates_address'] = df['coordinates'].apply(
+        df['address'] = df['coordinates'].apply(
             lambda x: x[1] if isinstance(x, tuple) and len(x) > 1 else np.nan
         )
-    
+        df['yandex_map_link'] = df['coordinates_xy'].apply(
+            lambda x: f"https://yandex.ru/maps/?text={x[0]},{x[1]}" if isinstance(x, list | tuple) and len(x) > 0 and x is not np.nan else np.nan
+        )
+
     # Преобразуем типы данных
     if 'biddType' in df.columns:
         df['biddType'] = df['biddType'].apply(lambda x: x['name'] if isinstance(x, dict) and 'name' in x else x)
@@ -213,6 +253,7 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     if 'category' in df.columns:
         df['category'] = df['category'].apply(lambda x: x['name'] if isinstance(x, dict) and 'name' in x else x)
     
+
     # Преобразуем даты
     try:
         if 'biddEndTime' in df.columns:
@@ -226,12 +267,69 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     except Exception as e:
         logger.error(f'Ошибка в преобразовании времени: {e}')
     
+    try:
+        logger.info('Начинаю собирать дополнительные данные об объекте...')
+        
+        # Получаем уникальные непустые ID лотов
+        unique_lot_ids = df['id'].dropna().unique().tolist()
+        
+        if unique_lot_ids:
+            # Получаем дополнительные данные параллельно
+            additional_data_dict = get_additional_data_batch(unique_lot_ids, max_workers=10)
+            
+            # Создаем временные колонки для данных
+            data_columns = ['auction_start_date', 'bidd_start_date', 'auction_link', 
+                             'price_step', 'deposit_price', 'files', 'permitted_use']
+            
+            # Преобразуем словарь результатов в DataFrame для удобного соединения
+            additional_df = pd.DataFrame([
+                [lot_id] + list(data)
+                for lot_id, data in additional_data_dict.items()
+            ], columns=['id'] + data_columns)
+            
+            # Объединяем с основным DataFrame
+            df = df.drop(columns=[col for col in data_columns if col in df.columns]).merge(
+                additional_df, on='id', how='left'
+            )
+        else:
+            for col in ['auction_start_date', 'bidd_start_date', 'auction_link', 
+                       'price_step', 'deposit_price', 'files', 'permitted_use']:
+                df[col] = np.nan
+        
+        logger.info('Дополнительные данные собраны!')
+        
+        if 'files' in df.columns:
+            df['files'] = df['files'].apply(
+                lambda x: '\n'.join([f"{name}: {url}" for name, url in x]) if isinstance(x, list) and all(isinstance(item, tuple) and len(item) == 2 for item in x) else ''
+            )
+    except Exception as e:
+        logger.error(f'Ошибка в получении дополнительных данных: {e}')
+
     # Удаляем ненужные колонки
-    columns_to_drop = ['characteristics', 'attributes', 'subjectRFCode', 'additional_info', 'coordinates']
-    df = df.drop(columns=[col for col in columns_to_drop if col in df.columns]).reset_index(drop=True)
+    # columns_to_drop = ['characteristics', 'attributes', 'subjectRFCode']
+    # df = df.drop(columns=[col for col in columns_to_drop if col in df.columns]).reset_index(drop=True)
     
+    df.rename(columns={
+        'priceMin': 'price_min',
+        'priceFin': 'price_fin',
+        'biddType': 'bidd_type',
+        'biddForm': 'bidd_form',
+        'lotStatus': 'lot_status',
+        'biddEndTime': 'bidd_end_date',
+        'lotImages': 'lot_images',
+        'lotName': 'lot_name',
+        'lotDescription': 'lot_description',
+    }, inplace=True)
+
+    df = df[[
+        'id', 'link', 'lot_name', 'lot_description', 'category', 'subject', 'permitted_use', 'lot_status', 
+        'bidd_type', 'bidd_form', 'bidd_start_date', 'bidd_end_date', 'auction_start_date', 'auction_link',
+        'deposit_price','price_min', 'price_step', 'price_fin', 'rent_period', 'area', 'cadastral_number', 'coordinates_xy', 
+        'address', 'yandex_map_link', 'lot_images', 'files'
+    ]].reset_index(drop=True)
+
     # Подготавливаем данные для Excel
-    excel_df = prepare_data_for_excel(df)
+    # excel_df = prepare_data_for_excel(df)
     
     # Создаем директорию для результатов, если она не существует
     results_path = os.path.join('data', 'results')
@@ -260,7 +358,7 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     
     # Сохраняем данные в Excel
     with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
-        excel_df.to_excel(writer, sheet_name='Данные', index=False)
+        df.to_excel(writer, sheet_name='Данные', index=False)
         workbook = writer.book
         format_excel(workbook, 'Данные')
     
