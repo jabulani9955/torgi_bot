@@ -28,4 +28,4 @@ tzdata==2025.1
 yarl==1.18.3
 requests==2.31.0
 pyproj==3.6.1
-shapely==2.0.2
+shapely==2.0.7

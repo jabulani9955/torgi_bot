@@ -321,12 +321,15 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
         'lotDescription': 'lot_description',
     }, inplace=True)
 
-    df = df[[
+    df_base_columns = [
         'id', 'link', 'lot_name', 'lot_description', 'category', 'subject', 'permitted_use', 'lot_status', 
         'bidd_type', 'bidd_form', 'bidd_start_date', 'bidd_end_date', 'auction_start_date', 'auction_link',
-        'deposit_price','price_min', 'price_step', 'price_fin', 'rent_period', 'area', 'cadastral_number', 'coordinates_xy', 
-        'address', 'yandex_map_link', 'lot_images', 'files'
-    ]].reset_index(drop=True)
+        'deposit_price','price_min', 'price_step', 'price_fin', 'rent_period', 'area', 'cadastral_number', 'lot_images', 'files'
+    ]
+    df_coords_columns = ['coordinates_xy', 'address', 'yandex_map_link']
+
+
+    df = df[df_base_columns + df_coords_columns].reset_index(drop=True) if 'coordinates_xy' in df.columns else df[df_base_columns].reset_index(drop=True)
 
     # Подготавливаем данные для Excel
     # excel_df = prepare_data_for_excel(df)
