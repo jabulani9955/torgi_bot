@@ -11,7 +11,7 @@ from aiogram.types import CallbackQuery, FSInputFile, Message
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 import structlog
-from aiogram.exceptions import TelegramBadRequest
+from aiogram.exceptions import TelegramBadRequest, TelegramRetryAfter
 
 from bot.keyboards.menu import (
     get_main_menu_keyboard,
@@ -96,14 +96,59 @@ async def update_progress(
     """Обновляет сообщение с прогрессом"""
     if user_id not in fetch_tasks or fetch_tasks[user_id].cancelled():
         return
+    
+    # Создаем словарь для хранения последнего времени обновления и счетчика
+    if not hasattr(update_progress, "last_updates"):
+        update_progress.last_updates = {}
+    
+    # Получаем текущее время
+    now = datetime.now()
+    
+    # Если для этого пользователя уже есть запись о последнем обновлении
+    if user_id in update_progress.last_updates:
+        last_time, update_count = update_progress.last_updates[user_id]
         
+        # Вычисляем промежуток времени с последнего обновления в секундах
+        time_diff = (now - last_time).total_seconds()
+        
+        # Если прошло меньше 5 секунд, и обновление не критическое (не первое и не последнее)
+        if time_diff < 5 and update_count % 10 != 0 and current < total and current > 1:
+            # Пропускаем обновление
+            return
+        
+        # Если прошло меньше 60 секунд с последней ошибки флуда
+        if hasattr(update_progress, "flood_time") and user_id in update_progress.flood_time:
+            flood_time = update_progress.flood_time[user_id]
+            if (now - flood_time).total_seconds() < 60:
+                # Пропускаем все обновления на минуту после ошибки флуда
+                return
+    
+    # Обновляем счетчик и время последнего обновления
+    update_progress.last_updates[user_id] = (now, update_progress.last_updates.get(user_id, (None, 0))[1] + 1)
+    
     try:
+        # Обновляем сообщение с прогрессом только для ключевых точек
         await message.edit_text(
             f"⏳ Загрузка данных...\n"
-            f"Обработано страниц: {current}/{total}\n"
+            f"Обработано страниц: {current}/{total} ({round(current/total*100)}%)\n"
             f"Пожалуйста, подождите.",
             reply_markup=get_cancel_keyboard()
         )
+    except TelegramBadRequest as e:
+        # Игнорируем ошибку, если сообщение не изменилось
+        if "message is not modified" in str(e):
+            pass
+        else:
+            logger.error("Failed to update progress", error=str(e))
+    except TelegramRetryAfter as e:
+        # Если Telegram просит подождать из-за флуда
+        retry_after = getattr(e, "retry_after", 60)
+        logger.warning(f"Rate limited, retry after {retry_after} seconds")
+        
+        # Запоминаем время ошибки флуда
+        if not hasattr(update_progress, "flood_time"):
+            update_progress.flood_time = {}
+        update_progress.flood_time[user_id] = now
     except Exception as e:
         logger.error("Failed to update progress", error=str(e))
 
