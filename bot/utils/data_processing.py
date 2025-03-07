@@ -252,21 +252,7 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     
     if 'category' in df.columns:
         df['category'] = df['category'].apply(lambda x: x['name'] if isinstance(x, dict) and 'name' in x else x)
-    
-
-    # Преобразуем даты
-    try:
-        if 'biddEndTime' in df.columns:
-            df['biddEndTime'] = df.apply(lambda x: convert_time(x['biddEndTime'], x.get('timezoneOffset', 0)), axis=1)
-        if 'createDate' in df.columns:
-            df['createDate'] = df.apply(lambda x: convert_time(x['createDate'], x.get('timezoneOffset', 0)), axis=1)
-        if 'auction_start_date' in df.columns:
-            df['auction_start_date'] = df.apply(lambda x: convert_time(x['auction_start_date'], x.get('timezoneOffset', 0)), axis=1)
-        if 'bidd_start_date' in df.columns:
-            df['bidd_start_date'] = df.apply(lambda x: convert_time(x['bidd_start_date'], x.get('timezoneOffset', 0)), axis=1)
-    except Exception as e:
-        logger.error(f'Ошибка в преобразовании времени: {e}')
-    
+        
     try:
         logger.info('Начинаю собирать дополнительные данные об объекте...')
         
@@ -305,6 +291,19 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
     except Exception as e:
         logger.error(f'Ошибка в получении дополнительных данных: {e}')
 
+    # Преобразуем даты
+    try:
+        if 'biddEndTime' in df.columns:
+            df['biddEndTime'] = df.apply(lambda x: convert_time(x['biddEndTime'], x.get('timezoneOffset', 0)), axis=1)
+        if 'createDate' in df.columns:
+            df['createDate'] = df.apply(lambda x: convert_time(x['createDate'], x.get('timezoneOffset', 0)), axis=1)
+        if 'auction_start_date' in df.columns:
+            df['auction_start_date'] = df.apply(lambda x: convert_time(x['auction_start_date'], x.get('timezoneOffset', 0)), axis=1)
+        if 'bidd_start_date' in df.columns:
+            df['bidd_start_date'] = df.apply(lambda x: convert_time(x['bidd_start_date'], x.get('timezoneOffset', 0)), axis=1)
+    except Exception as e:
+        logger.error(f'Ошибка в преобразовании времени: {e}')
+    
     # Удаляем ненужные колонки
     # columns_to_drop = ['characteristics', 'attributes', 'subjectRFCode']
     # df = df.drop(columns=[col for col in columns_to_drop if col in df.columns]).reset_index(drop=True)
@@ -314,22 +313,34 @@ def data_processing(data: List[Dict[Any, Any]], selected_subjects: List[str], se
         'priceFin': 'price_fin',
         'biddType': 'bidd_type',
         'biddForm': 'bidd_form',
-        'lotStatus': 'lot_status',
+        'lotStatus': 'status',
         'biddEndTime': 'bidd_end_date',
-        'lotImages': 'lot_images',
-        'lotName': 'lot_name',
-        'lotDescription': 'lot_description',
+        'lotImages': 'images',
+        'lotName': 'name',
+        'lotDescription': 'description',
     }, inplace=True)
 
     df_base_columns = [
-        'id', 'link', 'lot_name', 'lot_description', 'category', 'subject', 'permitted_use', 'lot_status', 
+        'id', 'link', 'name', 'description', 'category', 'subject', 'permitted_use', 'status', 
         'bidd_type', 'bidd_form', 'bidd_start_date', 'bidd_end_date', 'auction_start_date', 'auction_link',
-        'deposit_price','price_min', 'price_step', 'price_fin', 'rent_period', 'area', 'cadastral_number', 'lot_images', 'files'
+        'deposit_price','price_min', 'price_step', 'price_fin', 'rent_period', 'area', 'cadastral_number', 'images', 'files'
     ]
     df_coords_columns = ['coordinates_xy', 'address', 'yandex_map_link']
 
-
-    df = df[df_base_columns + df_coords_columns].reset_index(drop=True) if 'coordinates_xy' in df.columns else df[df_base_columns].reset_index(drop=True)
+    # Проверяем наличие колонок в DataFrame и оставляем только существующие
+    existing_base_columns = [col for col in df_base_columns if col in df.columns]
+    existing_coords_columns = [col for col in df_coords_columns if col in df.columns]
+    
+    # Информируем о недостающих колонках
+    missing_columns = set(df_base_columns + df_coords_columns) - set(df.columns)
+    if missing_columns:
+        logger.warning(f"Следующие колонки отсутствуют в данных: {', '.join(missing_columns)}")
+    
+    # Формируем DataFrame только с существующими колонками
+    if existing_coords_columns and 'coordinates_xy' in df.columns:
+        df = df[existing_base_columns + existing_coords_columns].reset_index(drop=True)
+    else:
+        df = df[existing_base_columns].reset_index(drop=True)
 
     # Подготавливаем данные для Excel
     # excel_df = prepare_data_for_excel(df)
